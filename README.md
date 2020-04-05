@@ -19,7 +19,7 @@ Serviced by Goodbye-Corona
  
  - 1
  
- ### 3. 패배
+ ### 3. 
  
 - 1
  
