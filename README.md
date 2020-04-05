@@ -15,10 +15,13 @@ Serviced by Goodbye-Corona
 ```html
 http://api.corona-19.kr/korea/?serviceKey=APIKey
 ```
- - 제공 정보: 국내 확진자수, 국내 완치자수, 국내 사망자수, 국내 격리자수, 확진환자 현황 상위 1-5 시도명 및 퍼센트율
+ - 제공 정보: 국내 확진자수, 국내 완치자수, 국내 사망자수, 국내 격리자수, 확진환자 현황 상위 1-5 시도명 및 퍼센트율, 누적 검사수, 누적 검사완료수, 누적 확진률, 검사중/결과양성/결과음성 카운터 및 퍼센트
  - 정보 출처: http://ncov.mohw.go.kr/
  
  ### 2. 시도별 발생동향
+ ```html
+http://api.corona-19.kr/korea/country/?serviceKey=APIKey
+```
  - 제공 정보: 전일대비 확진환자 증감, 확진환자수, 격리해제수, 사망자수, 발생률
  - 정보 출처: http://ncov.mohw.go.kr/
 
