@@ -7,6 +7,7 @@
 
 Serviced by Goodbye-Corona
 
+---
 
 ## 국내 정보
 
@@ -18,6 +19,8 @@ Serviced by Goodbye-Corona
  ### 2. 시도별 발생동향
  - 제공 정보: 전일대비 확진환자 증감, 확진환자수, 격리해제수, 사망자수, 발생률
  - 정보 출처: http://ncov.mohw.go.kr/
+
+---
 
 ## 전세계 정보
 ### 1. 전세계 카운터
