@@ -12,6 +12,9 @@ Serviced by Goodbye-Corona
 ## 국내 정보
 
  ### 1. 국내 카운터
+```html
+http://api.corona-19.kr/korea/?serviceKey=APIKey
+```
  
  - 제공 정보: 국내 확진자수, 국내 완치자수, 국내 사망자수, 국내 격리자수, 확진환자 현황 상위 1-5 시도명 및 퍼센트율
  - 정보 출처: http://ncov.mohw.go.kr/
