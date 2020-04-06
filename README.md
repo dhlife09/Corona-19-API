@@ -1,6 +1,7 @@
 
 
 
+
 # [JSON] Corona-19-API
 
 코로나바이러스감염증-19 관련 API 서비스를 제공합니다.
@@ -10,7 +11,10 @@ Corona-19-API을 사용하려면 README.md 문서를 확인하세요.
 
 ---
 ## 서비스키 발급
-### 1. 준비중입니다
+### 1. 샘플 키
+- faeb46b5-8431-46a2-9193-50abb3fe6145 [기한: 4월 13일]
+
+### 2. 준비중
 - 현재 해당 내용을 포함한 여러 내용을 작성하고 있습니다. 필요하시다면 GitHub Issue 또는 이메일 주소(dhlife09@gmail.com)으로 메일을 보내주세요.
 ---
 ## 국내 정보
@@ -22,18 +26,18 @@ Corona-19-API을 사용하려면 README.md 문서를 확인하세요.
 http://api.corona-19.kr/korea/?serviceKey=APIKey
 ```
 ※ 요청
-|항목명|항목설명|비고|
+|항목명|항목설명|예제|
 |---|---|--|
-|serviceKey|API 인증키|발급방법 준비중|
+|serviceKey|API 인증키|http://api.corona-19.kr/korea/?serviceKey=faeb46b5-8431-46a2-9193-50abb3fe6145|
 
 ※ 응답
 |항목명(영어)|항목명(한글)|비고|샘플데이터|
 |---|---|--|--|
 |resultCode|응답코드|정상(0), 권한이 없거나 잘못된 키(401)|0|
-|korea1|국내 확진자수|-|10,237|
-|korea2|국내 완치자수|-|6,463|
-|korea3|국내 사망자수|-|183|
-|korea4|국내 격리자수|-|3,591|
+|TotalCase|국내 확진자수|-|10,237|
+|TotalRecovered|국내 완치자수|-|6,463|
+|TotalDeath|국내 사망자수|-|183|
+|NowCase|국내 격리자수|-|3,591|
 |city1n|시도별 확진환자 현황1(이름)|시도별 확진환자 현황에서 1번째로 많은 확진환자가 있는 시도의 이름|대구|
 |city2n|시도별 확진환자 현황2(이름)|시도별 확진환자 현황에서 2번째로 많은 확진환자가 있는 시도의 이름|경북|
 |city3n|시도별 확진환자 현황3(이름)|시도별 확진환자 현황에서 3번째로 많은 확진환자가 있는 시도의 이름|기타|
@@ -44,10 +48,10 @@ http://api.corona-19.kr/korea/?serviceKey=APIKey
 |city3p|시도별 확진환자 현황3(퍼센트)|시도별 확진환자 현황에서 3번째로 많은 확진환자가 있는 시도의 퍼센트율|10.07|
 |city4p|시도별 확진환자 현황4(퍼센트)|시도별 확진환자 현황에서 4번째로 많은 확진환자가 있는 시도의 퍼센트율|5.59|
 |city5p|시도별 확진환자 현황5(퍼센트)|시도별 확진환자 현황에서 5번째로 많은 확진환자가 있는 시도의 퍼센트율|5.39|
-|percent1|국내 완치율|-|63.13|
-|percent2|국내 사망률|-|1.79|
-|checking_c|국내 검사중|단위: 명|19,571|
-|checking_p|국내 검사중|단위: 퍼센트|4.2|
+|RecoveredPercentage|국내 완치율|-|63.13|
+|DeathPercentage|국내 사망률|-|1.79|
+|CheckingC|국내 검사중|단위: 명|19,571|
+|CheckingP|국내 검사중|단위: 퍼센트|4.2|
 |case_c|국내 검사결과 양성|단위: 명|10,237|
 |case_p|국내 검사결과 양성|단위: 퍼센트|2.2|
 |notcase_c|국내 검사결과 음성|단위: 명|431,425|
@@ -56,37 +60,8 @@ http://api.corona-19.kr/korea/?serviceKey=APIKey
 |updateTime|정보 업데이트 기준|00시정보로 오전10시경 업데이트|코로나바이러스감염증-19 국내 발생현황 (4.5. 00시 기준)|
 |resultMessage|API 처리 결과|정상(정상 처리되었습니다.), 오류(권한이 없거나 잘못된 키 입니다. \"github.com\/dhlife09\/Corona-19-API\"에 방문하세요.)|정상 처리되었습니다.|
 
-※ 샘플 응답
- ```json
-{
-    "resultCode": "0",
-    "korea1": "10,237",
-    "korea2": "6,463",
-    "korea3": "183",
-    "korea4": "3,591",
-    "city1n": "대구",
-    "city2n": "경북",
-    "city3n": "기타",
-    "city4n": "경기",
-    "city5n": "서울",
-    "city1p": "66.11",
-    "city2p": "12.84",
-    "city3p": "10.07",
-    "city4p": "5.59",
-    "city5p": "5.39",
-    "percent1": 63.13,
-    "percent2": 1.79,
-    "checking_c": "19,571",
-    "checking_p": "4.2",
-    "case_c": "10,237",
-    "case_p": "2.2",
-    "notcase_c": "431,425",
-    "notcase_p": "93.5",
-    "allcheck_c": "461,233",
-    "updateTime": "코로나바이러스감염증-19 국내 발생현황 (4.5. 00시 기준)",
-    "resultMessage": "정상 처리되었습니다."
-}
-```
+※ JSON 샘플 응답(전문)
+- [https://github.com/dhlife09/Corona-19-API/blob/master/1_%EA%B5%AD%EB%82%B4%EC%B9%B4%EC%9A%B4%ED%84%B0_%EC%9D%91%EB%8B%B5%EC%83%98%ED%94%8C.json](https://github.com/dhlife09/Corona-19-API/blob/master/1_%EA%B5%AD%EB%82%B4%EC%B9%B4%EC%9A%B4%ED%84%B0_%EC%9D%91%EB%8B%B5%EC%83%98%ED%94%8C.json)
 
  
 
