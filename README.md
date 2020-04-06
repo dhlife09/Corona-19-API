@@ -12,7 +12,7 @@ Corona-19-API을 사용하려면 README.md 문서를 확인하세요.
 ---
 ## 서비스키 발급
 ### 1. 샘플 키
-- faeb46b5-8431-46a2-9193-50abb3fe6145 [기한: 4월 13일]
+- fff098a39e0a841ab72e1d27bdee9b517 [기한: 4월 13일]
 
 ### 2. 준비중
 - 현재 해당 내용을 포함한 여러 내용을 작성하고 있습니다. 필요하시다면 GitHub Issue 또는 이메일 주소(dhlife09@gmail.com)으로 메일을 보내주세요.
@@ -28,7 +28,7 @@ http://api.corona-19.kr/korea/?serviceKey=APIKey
 ※ 요청
 |항목명|항목설명|예제|
 |---|---|--|
-|serviceKey|API 인증키|http://api.corona-19.kr/korea/?serviceKey=faeb46b5-8431-46a2-9193-50abb3fe6145|
+|serviceKey|API 인증키|http://api.corona-19.kr/korea/?serviceKey=fff098a39e0a841ab72e1d27bdee9b517|
 
 ※ 응답
 |항목명(영어)|항목명(한글)|비고|샘플데이터|
