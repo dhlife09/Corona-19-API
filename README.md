@@ -2,6 +2,7 @@
 
 
 
+
 # [JSON] Corona-19-API
 
 코로나바이러스감염증-19 관련 API 서비스를 제공합니다.
@@ -14,7 +15,7 @@ Corona-19-API을 사용하려면 README.md 문서를 확인하세요.
 ### 1. 샘플 키
 - fff098a39e0a841ab72e1d27bdee9b517 [기한: 4월 13일]
 
-### 2. 준비중
+### 2. 키 발급
 - 현재 해당 내용을 포함한 여러 내용을 작성하고 있습니다. 필요하시다면 GitHub Issue 또는 이메일 주소(dhlife09@gmail.com)으로 메일을 보내주세요.
 ---
 ## 국내 정보
@@ -48,15 +49,16 @@ http://api.corona-19.kr/korea/?serviceKey=APIKey
 |city3p|시도별 확진환자 현황3(퍼센트)|시도별 확진환자 현황에서 3번째로 많은 확진환자가 있는 시도의 퍼센트율|10.07|
 |city4p|시도별 확진환자 현황4(퍼센트)|시도별 확진환자 현황에서 4번째로 많은 확진환자가 있는 시도의 퍼센트율|5.59|
 |city5p|시도별 확진환자 현황5(퍼센트)|시도별 확진환자 현황에서 5번째로 많은 확진환자가 있는 시도의 퍼센트율|5.39|
-|RecoveredPercentage|국내 완치율|-|63.13|
-|DeathPercentage|국내 사망률|-|1.79|
-|CheckingC|국내 검사중|단위: 명|19,571|
-|CheckingP|국내 검사중|단위: 퍼센트|4.2|
-|case_c|국내 검사결과 양성|단위: 명|10,237|
-|case_p|국내 검사결과 양성|단위: 퍼센트|2.2|
-|notcase_c|국내 검사결과 음성|단위: 명|431,425|
-|notcase_p|국내 검사결과 음성|단위: 퍼센트|93.5|
-|allcheck_c|총 검사완료 수|단위: 명|461,233|
+|recoveredPercentage|국내 완치율|-|63.13|
+|deathPercentage|국내 사망률|-|1.79|
+|checkingCounter|국내 검사중|단위: 명|19,571|
+|checkingPercentage|국내 검사중|단위: 퍼센트|4.2|
+|caseCounter|국내 검사결과 양성|단위: 명|10,237|
+|casePercentage|국내 검사결과 양성|단위: 퍼센트|2.2|
+|notcaseCount|국내 검사결과 음성|단위: 명|431,425|
+|notcasePercentage|국내 검사결과 음성|단위: 퍼센트|93.5|
+|TotalChecking|총 검사완료 수|단위: 명|461,233|
+|TodayRecovered|오늘 하루 완치자수|단위: 명|135|
 |updateTime|정보 업데이트 기준|00시정보로 오전10시경 업데이트|코로나바이러스감염증-19 국내 발생현황 (4.5. 00시 기준)|
 |resultMessage|API 처리 결과|정상(정상 처리되었습니다.), 오류(권한이 없거나 잘못된 키 입니다. \"github.com\/dhlife09\/Corona-19-API\"에 방문하세요.)|정상 처리되었습니다.|
 
