@@ -6,14 +6,13 @@
 # [JSON] Corona-19-API
 
 코로나바이러스감염증-19 관련 API 서비스를 제공합니다.
-문서를 수정 중 입니다.
 
 Corona-19-API을 사용하려면 README.md 문서를 확인하세요.
 
 ---
 ## 서비스키 발급
 ### 1. 샘플 키
-- fff098a39e0a841ab72e1d27bdee9b517 [기한: 4월 13일]
+- fff098a39e0a841ab72e1d27bdee9b517 [유효기한: 4월 30일]
 
 ### 2. 키 발급
 - 현재 해당 내용을 포함한 여러 내용을 작성하고 있습니다. 필요하시다면 GitHub Issue 또는 이메일 주소(dhlife09@gmail.com)으로 메일을 보내주세요.
@@ -110,7 +109,7 @@ http://api.corona-19.kr/korea/country/?serviceKey=APIKey
 |resultMessage|API 처리 결과|정상(정상 처리되었습니다.), 오류(권한이 없거나 잘못된 키 입니다. \"github.com\/dhlife09\/Corona-19-API\"에 방문하세요.)|정상 처리되었습니다.|
 
 ※ JSON 샘플 응답(전문)
-- [https://github.com/dhlife09/Corona-19-API/blob/master/1_%EA%B5%AD%EB%82%B4%EC%B9%B4%EC%9A%B4%ED%84%B0_%EC%9D%91%EB%8B%B5%EC%83%98%ED%94%8C.json](https://github.com/dhlife09/Corona-19-API/blob/master/1_%EA%B5%AD%EB%82%B4%EC%B9%B4%EC%9A%B4%ED%84%B0_%EC%9D%91%EB%8B%B5%EC%83%98%ED%94%8C.json)
+- https://github.com/dhlife09/Corona-19-API/blob/master/2_%EC%8B%9C%EB%8F%84%EB%B3%84_%EB%B0%9C%EC%83%9D%EB%8F%99%ED%96%A5.json
 
 ---
 
