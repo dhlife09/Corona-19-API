@@ -6,7 +6,7 @@
 코로나바이러스감염증-19 관련 API 서비스를 제공합니다.
 문서를 수정 중 입니다.
 
-Serviced by Goodbye-Corona
+Corona-19-API을 사용하려면 README.md 문서를 확인하세요.
 
 ---
 ## 서비스키 발급
