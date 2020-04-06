@@ -81,8 +81,7 @@ http://api.corona-19.kr/korea/country/?serviceKey=APIKey
 |serviceKey|API 인증키|http://api.corona-19.kr/korea/country/?serviceKey=fff098a39e0a841ab72e1d27bdee9b517|
 
 ※ 규칙
-
-지역명(항목명)|data{num1}_{num2}
+data{num1}_{num2}
  - num1: 지역 코드로 0(합계)~18(검역)까지
  - num2: 0(지역명(항목명)), 1(신규확진수), 2(확진환자수), 3(완치자수), 4(사망자수), 5(발생룰)
 
