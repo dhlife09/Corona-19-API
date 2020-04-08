@@ -1,9 +1,3 @@
-
-
-
-
-
-
 # [JSON] Corona-19-API
 
 코로나바이러스감염증-19 관련 API 서비스를 제공합니다.
@@ -13,14 +7,15 @@
 
 Corona-19-API을 사용하려면 README.md 문서를 확인하세요.
 
----
-## 서비스키 발급
-### 1. 샘플 키
-- fff098a39e0a841ab72e1d27bdee9b517 [유효기한: 4월 30일]
 
-### 2. 키 발급
-- 현재 해당 내용을 포함한 여러 내용을 작성하고 있습니다. 필요하시다면 GitHub Issues 또는 이메일(dhlife09@gmail.com)에 "이메일 주소", "서비스하실 URL" 내용을 입력해주세요.
----
+## 서비스키 발급
+### 1. 키 발급(점검 및 서비스 안정화 중)
+- https://api.corona-19.kr/ 에 방문해서 이메일 주소, 사용 목적을 입력하신 후 "API 키 발급하기" 버튼을 눌러주세요.
+- 버튼을 누르면 메일로 API 키가 발송됩니다.
+
+### 2. 샘플 키
+- fff098a39e0a841ab72e1d27bdee9b517 [유효기한: 4월 20일]
+
 ## 국내 정보
  ### 1. 국내 카운터
   - 제공 정보: 국내 확진자수, 국내 완치자수, 국내 사망자수, 국내 격리자수, 확진환자 현황 상위 1-5 시도명 및 퍼센트율, 누적 검사수, 누적 검사완료수, 누적 확진률, 검사중/결과양성/결과음성 카운터 및 퍼센트 등
@@ -69,8 +64,7 @@ http://api.corona-19.kr/korea/?serviceKey=APIKey
 - [https://github.com/dhlife09/Corona-19-API/blob/master/1_%EA%B5%AD%EB%82%B4%EC%B9%B4%EC%9A%B4%ED%84%B0_%EC%9D%91%EB%8B%B5%EC%83%98%ED%94%8C.json](https://github.com/dhlife09/Corona-19-API/blob/master/1_%EA%B5%AD%EB%82%B4%EC%B9%B4%EC%9A%B4%ED%84%B0_%EC%9D%91%EB%8B%B5%EC%83%98%ED%94%8C.json)
 
  
-
-
+---
 
  ### 2. 시도별 발생동향
   - 제공 정보: 전일대비 확진환자 증감, 확진환자수, 격리해제수, 사망자수, 발생률 등
@@ -112,11 +106,18 @@ data{num1}_{num2}
 |resultMessage|API 처리 결과|정상(정상 처리되었습니다.), 오류(권한이 없거나 잘못된 키 입니다. \"github.com\/dhlife09\/Corona-19-API\"에 방문하세요.)|정상 처리되었습니다.|
 
 ※ JSON 샘플 응답(전문)
-- https://github.com/dhlife09/Corona-19-API/blob/master/2_%EC%8B%9C%EB%8F%84%EB%B3%84_%EB%B0%9C%EC%83%9D%EB%8F%99%ED%96%A5.json
+- [https://github.com/dhlife09/Corona-19-API/blob/master/2_%EC%8B%9C%EB%8F%84%EB%B3%84_%EB%B0%9C%EC%83%9D%EB%8F%99%ED%96%A5_%EC%9D%91%EB%8B%B5%EC%83%98%ED%94%8C.json](https://github.com/dhlife09/Corona-19-API/blob/master/2_%EC%8B%9C%EB%8F%84%EB%B3%84_%EB%B0%9C%EC%83%9D%EB%8F%99%ED%96%A5_%EC%9D%91%EB%8B%B5%EC%83%98%ED%94%8C.json)
 
----
 
 ## 전세계 정보(준비중)
 ### 1. 전세계 카운터
 - 제공 정보: 전세계 확진자수, 전세계 완치자수, 전세계 사망자수, 전세계 현재 환자수
 - 정보 출처: https://www.worldometers.info/coronavirus/index.php
+
+
+## 굿바이코로나 API 이용약관
+- 굿바이코로나에서 제공하는 코로나19 관련 API는 누구나 무료로 제한없이 사용할 수 있습니다.
+- 불법 서비스에서의 API 이용은 금지됩니다.
+- 서비스에 부하를 주는 행위는 금지됩니다.
+- 일회용 이메일과 같은 비정상적인 이메일 주소를 이용한 API 키 발급을 금지합니다.
+- 키를 받으신 이메일 주소로 서비스 중요 공지사항 등은 발송될 수 있습니다.
