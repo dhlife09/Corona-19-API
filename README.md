@@ -1,3 +1,4 @@
+
 # [JSON] Corona-19-API
 
 코로나바이러스감염증-19 관련 API 서비스를 제공합니다.
@@ -24,15 +25,15 @@ Corona-19-API 업데이트 로그 확인을 원하시면 update_log.md5 문서�
 ```html
 http://api.corona-19.kr/korea/?serviceKey=APIKey
 ```
-※ 요청
-|항목명|항목설명|예제|
+#### ※ 요청변수
+|parameter|항목설명|요청 예제|
 |---|---|--|
 |serviceKey|API 인증키|http://api.corona-19.kr/korea/?serviceKey=fff098a39e0a841ab72e1d27bdee9b517|
 
-※ 응답
+#### ※ 응답내용
 |항목명(영어)|항목명(한글)|비고|샘플데이터|
 |---|---|--|--|
-|resultCode|응답코드|정상(0), 권한이 없거나 잘못된 키(401)|0|
+|resultCode|응답코드|정상(0) / 권한이 없거나 잘못된 키(401)|0|
 |TotalCase|국내 확진자수|-|10,237|
 |TotalRecovered|국내 완치자수|-|6,463|
 |TotalDeath|국내 사망자수|-|183|
@@ -47,8 +48,8 @@ http://api.corona-19.kr/korea/?serviceKey=APIKey
 |city3p|시도별 확진환자 현황3(퍼센트)|시도별 확진환자 현황에서 3번째로 많은 확진환자가 있는 시도의 퍼센트율|10.07|
 |city4p|시도별 확진환자 현황4(퍼센트)|시도별 확진환자 현황에서 4번째로 많은 확진환자가 있는 시도의 퍼센트율|5.59|
 |city5p|시도별 확진환자 현황5(퍼센트)|시도별 확진환자 현황에서 5번째로 많은 확진환자가 있는 시도의 퍼센트율|5.39|
-|recoveredPercentage|국내 완치율|-|63.13|
-|deathPercentage|국내 사망률|-|1.79|
+|recoveredPercentage|국내 완치율|단위: 퍼센트|63.13|
+|deathPercentage|국내 사망률|단위: 퍼센트|1.79|
 |checkingCounter|국내 검사중|단위: 명|19,571|
 |checkingPercentage|국내 검사중|단위: 퍼센트|4.2|
 |caseCounter|국내 검사결과 양성|단위: 명|10,237|
@@ -57,8 +58,8 @@ http://api.corona-19.kr/korea/?serviceKey=APIKey
 |notcasePercentage|국내 검사결과 음성|단위: 퍼센트|93.5|
 |TotalChecking|총 검사완료 수|단위: 명|461,233|
 |TodayRecovered|오늘 하루 완치자수|단위: 명|135|
-|updateTime|정보 업데이트 기준|00시정보로 오전10시경 업데이트|코로나바이러스감염증-19 국내 발생현황 (4.5. 00시 기준)|
-|resultMessage|API 처리 결과|정상(정상 처리되었습니다.), 오류(권한이 없거나 잘못된 키 입니다. \"github.com\/dhlife09\/Corona-19-API\"에 방문하세요.)|정상 처리되었습니다.|
+|updateTime|정보 업데이트 기준|00시정보로 오전10시경 자동 업데이트 됩니다.|코로나바이러스감염증-19 국내 발생현황 (4.5. 00시 기준)|
+|resultMessage|API 처리 결과|정상처리: (정상 처리되었습니다.) / 오류(권한이 없거나 잘못된 키 입니다. \"github.com\/dhlife09\/Corona-19-API\"에 방문하세요.)|정상 처리되었습니다.|
 
 ※ JSON 샘플 응답(전문)
 - [https://github.com/dhlife09/Corona-19-API/blob/master/1_%EA%B5%AD%EB%82%B4%EC%B9%B4%EC%9A%B4%ED%84%B0_%EC%9D%91%EB%8B%B5%EC%83%98%ED%94%8C.json](https://github.com/dhlife09/Corona-19-API/blob/master/1_%EA%B5%AD%EB%82%B4%EC%B9%B4%EC%9A%B4%ED%84%B0_%EC%9D%91%EB%8B%B5%EC%83%98%ED%94%8C.json)
@@ -73,20 +74,20 @@ http://api.corona-19.kr/korea/?serviceKey=APIKey
 ```html
 http://api.corona-19.kr/korea/country/?serviceKey=APIKey
 ```
-※ 요청
-|항목명|항목설명|예제|
+※ 요청변수
+|parameter|항목설명|예제|
 |---|---|--|
 |serviceKey|API 인증키|http://api.corona-19.kr/korea/country/?serviceKey=fff098a39e0a841ab72e1d27bdee9b517|
 
-※ 규칙
+#### ※ 규칙
 data{num1}_{num2}
  - num1: 지역 코드로 0(합계)~18(검역)까지
  - num2: 0(지역명(항목명)), 1(신규확진수), 2(확진환자수), 3(완치자수), 4(사망자수), 5(발생룰)
 
-※ 응답
+#### ※ 응답내용
 |항목명(영어)|항목명(한글)|비고|샘플데이터|
 |---|---|--|--|
-|resultCode|응답코드|정상(0), 권한이 없거나 잘못된 키(401)|0|
+|resultCode|응답코드|정상(0) / 권한이 없거나 잘못된 키(401)|0|
 |data0_0|지역명(항목명)|규칙확인|합계|
 |data0_1|신규확진수|규칙확인|47|
 |data0_2|확진환자수|규칙확인|10284|
@@ -103,7 +104,7 @@ data{num1}_{num2}
 |data18_3|완치자수|규칙확인|2|
 |data18_4|사망자수|규칙확인|0|
 |data18_5|발생률|규칙확인|-|
-|resultMessage|API 처리 결과|정상(정상 처리되었습니다.), 오류(권한이 없거나 잘못된 키 입니다. \"github.com\/dhlife09\/Corona-19-API\"에 방문하세요.)|정상 처리되었습니다.|
+|resultMessage|정상처리: (정상 처리되었습니다.) / 오류(권한이 없거나 잘못된 키 입니다. \"github.com\/dhlife09\/Corona-19-API\"에 방문하세요.)|정상 처리되었습니다.|
 
 ※ JSON 샘플 응답(전문)
 - [https://github.com/dhlife09/Corona-19-API/blob/master/2_%EC%8B%9C%EB%8F%84%EB%B3%84_%EB%B0%9C%EC%83%9D%EB%8F%99%ED%96%A5_%EC%9D%91%EB%8B%B5%EC%83%98%ED%94%8C.json](https://github.com/dhlife09/Corona-19-API/blob/master/2_%EC%8B%9C%EB%8F%84%EB%B3%84_%EB%B0%9C%EC%83%9D%EB%8F%99%ED%96%A5_%EC%9D%91%EB%8B%B5%EC%83%98%ED%94%8C.json)
