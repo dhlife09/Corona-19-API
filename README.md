@@ -5,8 +5,8 @@
 - API 호출 수 제한 없음
 - 공식 자료 사용(ncov.mohw.go.kr)
 
-Corona-19-API을 사용하려면 README.md 문서를 확인하세요.
-
+Corona-19-API 사용을 원하시면 README.md 문서를 확인하세요.
+Corona-19-API 업데이트 로그 확인을 원하시면 update_log.md5 문서를 확인하세요.
 
 ## 서비스키 발급
 ### 1. 키 발급
