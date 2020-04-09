@@ -1,4 +1,3 @@
-
 # [JSON] Corona-19-API
 
 코로나바이러스감염증-19 관련 API 서비스를 제공합니다.
@@ -88,8 +87,8 @@ data{num1}_{num2}
 |항목명(영어)|항목명(한글)|비고|샘플데이터|
 |---|---|--|--|
 |resultCode|응답코드|정상(0) / 권한이 없거나 잘못된 키(401)|0|
-|data0_0|지역명(항목명)|규칙확인|합계|
-|data0_1|신규확진수|규칙확인|47|
+|data0_0|지역명(항목명)|규칙확인([https://github.com/dhlife09/Corona-19-API/blob/master/README.md#-%EA%B7%9C%EC%B9%99](https://github.com/dhlife09/Corona-19-API/blob/master/README.md#-%EA%B7%9C%EC%B9%99))|합계|
+|data0_1|신규확진수|규칙학인|47|
 |data0_2|확진환자수|규칙확인|10284|
 |data0_3|완치자수|규칙확인|6598|
 |data0_4|사망자수|규칙확인|186|
