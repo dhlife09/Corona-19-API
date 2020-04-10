@@ -1,3 +1,4 @@
+
 # [JSON] Corona-19-API
 ![preview](https://user-images.githubusercontent.com/22024308/79011806-d1e9d300-7b9f-11ea-87bb-3be5126c2394.JPG)
 
@@ -9,14 +10,14 @@
 Corona-19-API 사용을 원하시면 README.md 문서를 확인하세요.
 Corona-19-API 업데이트 로그 확인을 원하시면 update_log.md5 문서를 확인하세요.
 
-## 목차
+## 👨‍💻 목차
 - [서비스키 발급](https://github.com/dhlife09/Corona-19-API#%EC%84%9C%EB%B9%84%EC%8A%A4%ED%82%A4-%EB%B0%9C%EA%B8%89)
 - [국내 정보](https://github.com/dhlife09/Corona-19-API#%EA%B5%AD%EB%82%B4-%EC%A0%95%EB%B3%B4)
 	- [국내 카운터](https://github.com/dhlife09/Corona-19-API#1-1-%EA%B5%AD%EB%82%B4-%EC%B9%B4%EC%9A%B4%ED%84%B0)
 	- [시도별 발생동향](https://github.com/dhlife09/Corona-19-API#1-2-%EC%8B%9C%EB%8F%84%EB%B3%84-%EB%B0%9C%EC%83%9D%EB%8F%99%ED%96%A5)
 - [전세계 정보(준비중)](https://github.com/dhlife09/Corona-19-API#%EC%A0%84%EC%84%B8%EA%B3%84-%EC%A0%95%EB%B3%B4%EC%A4%80%EB%B9%84%EC%A4%91)
 - [굿바이코로나 API 이용약관](https://github.com/dhlife09/Corona-19-API#%EA%B5%BF%EB%B0%94%EC%9D%B4%EC%BD%94%EB%A1%9C%EB%82%98-api-%EC%9D%B4%EC%9A%A9%EC%95%BD%EA%B4%80)
-## 0. 서비스키 발급
+## 🔐 0. 서비스키 발급
 ### 1. 키 발급
 - https://api.corona-19.kr/ 에 방문해서 이메일 주소, 사용 목적을 입력하신 후 "API 키 발급하기" 버튼을 눌러주세요.
 - 버튼을 누르면 메일로 API 키가 발송됩니다.
@@ -24,8 +25,8 @@ Corona-19-API 업데이트 로그 확인을 원하시면 update_log.md5 문서�
 ### 2. 샘플 키
 - fff098a39e0a841ab72e1d27bdee9b517 [유효기한: 4월 15일]
 
-## 1. 국내 정보
- ### 1-1. 국내 카운터
+## ✔ 1. 국내 정보
+ ### 📙 1-1. 국내 카운터
   - 제공 정보: 국내 확진자수, 국내 완치자수, 국내 사망자수, 국내 격리자수, 확진환자 현황 상위 1-5 시도명 및 퍼센트율, 누적 검사수, 누적 검사완료수, 누적 확진률, 검사중/결과양성/결과음성 카운터 및 퍼센트 등
  - 정보 출처: http://ncov.mohw.go.kr/
  
@@ -74,7 +75,7 @@ http://api.corona-19.kr/korea/?serviceKey=APIKey
  
 ---
 
- ### 1-2. 시도별 발생동향
+ ### 📙 1-2. 시도별 발생동향
   - 제공 정보: 전일대비 확진환자 증감, 확진환자수, 격리해제수, 사망자수, 발생률 등
  - 정보 출처: http://ncov.mohw.go.kr/
  
@@ -117,13 +118,13 @@ data{num1}_{num2}
 - [https://github.com/dhlife09/Corona-19-API/blob/master/2_%EC%8B%9C%EB%8F%84%EB%B3%84_%EB%B0%9C%EC%83%9D%EB%8F%99%ED%96%A5_%EC%9D%91%EB%8B%B5%EC%83%98%ED%94%8C.json](https://github.com/dhlife09/Corona-19-API/blob/master/2_%EC%8B%9C%EB%8F%84%EB%B3%84_%EB%B0%9C%EC%83%9D%EB%8F%99%ED%96%A5_%EC%9D%91%EB%8B%B5%EC%83%98%ED%94%8C.json)
 
 
-## 전세계 정보(준비중)
-### 1. 전세계 카운터
+## ❌ 전세계 정보(준비중)
+### ❌ 1. 전세계 카운터
 - 제공 정보: 전세계 확진자수, 전세계 완치자수, 전세계 사망자수, 전세계 현재 환자수
 - 정보 출처: https://www.worldometers.info/coronavirus/index.php
 
 
-## 굿바이코로나 API 이용약관
+## 📣 굿바이코로나 Corona-19-API 이용약관
 - 굿바이코로나에서 제공하는 코로나19 관련 API는 누구나 무료로 제한없이 사용할 수 있습니다.
 - 불법 서비스에서의 API 이용은 금지됩니다.
 - 서비스에 부하를 주는 행위는 금지됩니다.
