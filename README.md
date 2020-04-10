@@ -1,4 +1,3 @@
-
 # [JSON] Corona-19-API
 
 코로나바이러스감염증-19 관련 API 서비스를 제공합니다.
@@ -12,8 +11,8 @@ Corona-19-API 업데이트 로그 확인을 원하시면 update_log.md5 문서�
 ## 목차
 - [서비스키 발급](https://github.com/dhlife09/Corona-19-API#%EC%84%9C%EB%B9%84%EC%8A%A4%ED%82%A4-%EB%B0%9C%EA%B8%89)
 - [국내 정보](https://github.com/dhlife09/Corona-19-API#%EA%B5%AD%EB%82%B4-%EC%A0%95%EB%B3%B4)
-	- 국내 카운터
-	- 시도별 발생동향
+	- [국내 카운터](https://github.com/dhlife09/Corona-19-API#1-1-%EA%B5%AD%EB%82%B4-%EC%B9%B4%EC%9A%B4%ED%84%B0)
+	- [시도별 발생동향](https://github.com/dhlife09/Corona-19-API#1-2-%EC%8B%9C%EB%8F%84%EB%B3%84-%EB%B0%9C%EC%83%9D%EB%8F%99%ED%96%A5)
 - [전세계 정보(준비중)](https://github.com/dhlife09/Corona-19-API#%EC%A0%84%EC%84%B8%EA%B3%84-%EC%A0%95%EB%B3%B4%EC%A4%80%EB%B9%84%EC%A4%91)
 - [굿바이코로나 API 이용약관](https://github.com/dhlife09/Corona-19-API#%EA%B5%BF%EB%B0%94%EC%9D%B4%EC%BD%94%EB%A1%9C%EB%82%98-api-%EC%9D%B4%EC%9A%A9%EC%95%BD%EA%B4%80)
 ## 0. 서비스키 발급
