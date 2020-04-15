@@ -1,5 +1,5 @@
 # [JSON] Corona-19-API
-! [preview] (https://user-images.githubusercontent.com/22024308/79011806-d1e9d300-7b9f-11ea-87bb-3be5126c2394.JPG)
+![preview](https://user-images.githubusercontent.com/22024308/79011806-d1e9d300-7b9f-11ea-87bb-3be5126c2394.JPG)
 
 It provides API service related to coronavirus infection-19.
 -Open 24 hours (Uptime: https://status.corona-19.kr)
