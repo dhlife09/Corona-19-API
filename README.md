@@ -1,3 +1,4 @@
+
 # [JSON] Corona-19-API
 ![preview](https://user-images.githubusercontent.com/22024308/79011806-d1e9d300-7b9f-11ea-87bb-3be5126c2394.JPG)
 
@@ -77,45 +78,26 @@ http://api.corona-19.kr/korea/?serviceKey=APIKey
  - 정보 출처: http://ncov.mohw.go.kr/
  
 ```html
-http://api.corona-19.kr/korea/country/?serviceKey=APIKey
+http://api.corona-19.kr/korea/country/new/?serviceKey=APIKey
 ```
 ※ 요청변수 [GET]
 |parameter|항목설명|예제|
 |---|---|--|
-|serviceKey|API 인증키|http://api.corona-19.kr/korea/country/?serviceKey=fff098a39e0a841ab72e1d27bdee9b517|
-
-#### ※ 규칙
-data{num1}_{num2}
- - num1: 지역 코드로 0(합계)~18(검역)까지
- - num2: 0(지역명(항목명)), 1(신규확진수), 2(확진환자수), 3(완치자수), 4(사망자수), 5(발생률, 6(전일대비증감-해외유입), 7(전일대비증감-지역발생)
+|serviceKey|API 인증키|http://api.corona-19.kr/korea/country/new/?serviceKey=fff098a39e0a841ab72e1d27bdee9b517|
 
 #### ※ 응답내용
 |항목명(영어)|항목명(한글)|비고|샘플데이터|
 |---|---|--|--|
 |resultCode|응답코드|정상(0) / 권한이 없거나 잘못된 키(401)|0|
-|data0_0|지역명(항목명)|규칙확인([https://github.com/dhlife09/Corona-19-API/blob/master/README.md#-%EA%B7%9C%EC%B9%99](https://github.com/dhlife09/Corona-19-API/blob/master/README.md#-%EA%B7%9C%EC%B9%99))|합계|
-|data0_1|신규확진수|규칙학인|47|
-|data0_2|확진환자수|규칙확인|10284|
-|data0_3|완치자수|규칙확인|6598|
-|data0_4|사망자수|규칙확인|186|
-|data0_5|발생률|규칙확인|19.84|
-|data0_6|전일대비증감-해외유입|규칙확인|5|
-|data0_7|전일대비증감-지역발생|규칙확인|22|
-|data1_0|지역명(항목명)|규칙확인|서울|
-|data1_1|신규확진수|규칙확인|11|
-|data1_2|확진환자수|규칙확인|563|
-|data1_3|완치자수|규칙확인|151|
-|data1_4|사망자수|규칙확인|0|
-|data1_5|발생률|규칙확인|5.78|
-|data1_6|전일대비증감-해외유입|규칙확인|0|
-|data1_7|전일대비증감-지역발생|규칙확인|5|
-|규칙생략|규칙생략|상단에 있는 규칙을 확인해주세요. 0~18까지 구성이 동일합니다.|규칙생략|
-|data18_3|완치자수|규칙확인|2|
-|data18_4|사망자수|규칙확인|0|
-|data18_5|발생률|규칙확인|-|
-|data18_6|전일대비증감-해외유입|규칙확인|4|
-|data18_7|전일대비증감-지역발생|규칙확인|0|
 |resultMessage|정상처리: (정상 처리되었습니다.) / 오류(권한이 없거나 잘못된 키 입니다. \"github.com\/dhlife09\/Corona-19-API\"에 방문하세요.)|정상 처리되었습니다.|
+|countryName|시도명(지역명)||서울|
+|newCase|신규확진환자수|전일대비|2|
+|totalCase|확진환자수||619|
+|recovered|완치자수||250|
+|death|사망자||2|
+|percentage|발생률|단위: %|6.36|
+|newFcase|전일대비증감-해외유입||1|
+|newCcase|전일대비증감-지역발생||1|
 
 ※ JSON 샘플 응답(전문)
 - [https://github.com/dhlife09/Corona-19-API/blob/master/2_%EC%8B%9C%EB%8F%84%EB%B3%84_%EB%B0%9C%EC%83%9D%EB%8F%99%ED%96%A5_%EC%9D%91%EB%8B%B5%EC%83%98%ED%94%8C.json](https://github.com/dhlife09/Corona-19-API/blob/master/2_%EC%8B%9C%EB%8F%84%EB%B3%84_%EB%B0%9C%EC%83%9D%EB%8F%99%ED%96%A5_%EC%9D%91%EB%8B%B5%EC%83%98%ED%94%8C.json)
@@ -212,10 +194,10 @@ data{num1}_{num2}
 성명 :박도현  
 직책 :운영자  
 직급 :운영자  
-연락처 : dhlife09@gmail.com
+연락처 : +82-10-507-1308-1684(0507-1308-1684), dhlife09@gmail.com
 ※ 개인정보 보호 담당부서로 연결됩니다.  
   
-② 정보주체께서는 굿바이코로나(‘https://api.corona-19.kr’이하 ‘Corona-19-API) 의 서비스(또는 사업)을 이용하시면서 발생한 모든 개인정보 보호 관련 문의, 불만처리, 피해구제 등에 관한 사항을 개인정보 보호책임자로 문의하실 수 있습니다. 굿바이코로나(‘https://api.corona-19.kr’이하 ‘Corona-19-API) 은(는) 정보주체의 문의에 대해 지체 없이 답변 및 처리해드릴 것입니다.  
+② 정보주체께서는 굿바이코로나(‘https://api.corona-19.kr’이하 ‘Corona-19-API) 의 서비스(또는 사업)을 이용하시면서 발생한 모든 개인정보 보호 관련 문의, 불만처리, 피해구제 등에 관한 사항을 개인정보 보호책임자로 문의하실 수 있습니다. 굿바이코로나(‘https://api.corona-19.kr’이하 ‘Corona-19-API) 은(는) 정보주체의 문의에 대해 지체 없이 답변 및 처리해드릴 것입니다.  d
 
 **9. 개인정보 처리방침 변경**
 
