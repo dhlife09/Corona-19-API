@@ -58,7 +58,7 @@ http://api.corona-19.kr/korea/?serviceKey=APIKey
 |deathPercentage|국내 사망률|단위: 퍼센트|1.79|
 |checkingCounter|국내 검사중|단위: 명|19,571|
 |checkingPercentage|국내 검사중|단위: 퍼센트|4.2|
-|caseCounter|국내 검사결과 양성|단위: 명|10,237|
+|caseCount|국내 검사결과 양성|단위: 명|10,237|
 |casePercentage|국내 검사결과 양성|단위: 퍼센트|2.2|
 |notcaseCount|국내 검사결과 음성|단위: 명|431,425|
 |notcasePercentage|국내 검사결과 음성|단위: 퍼센트|93.5|
