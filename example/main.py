@@ -1,3 +1,15 @@
+'''
+
+굿바이코로나 Corona-19-API 파싱예제 파이썬 샘플 코드입니다.
+해당 코드를 사용하기 위해서는 Corona-19-API 서비스키(API키)를 발급받은 후 key에 값을 대입해주세요.
+
+https://api.corona-19.kr/
+https://github.com/dhlife09/Corona-19-API
+
+Copyright © dhlife09. All rights reserved.
+
+'''
+
 import requests
 import json
 import re #계산을 위한 특수문자 제거
