@@ -1,6 +1,6 @@
 
 # [JSON] Corona-19-API
-![preview](https://user-images.githubusercontent.com/22024308/79011806-d1e9d300-7b9f-11ea-87bb-3be5126c2394.JPG)
+![preview](https://user-images.githubusercontent.com/22024308/79692822-3690e600-82a2-11ea-9bcc-ea042cb0223a.png)
 
 코로나바이러스감염증-19 관련 API 서비스를 제공합니다.
 - 24시간 운영(업타임: https://status.corona-19.kr)
@@ -115,6 +115,7 @@ http://api.corona-19.kr/korea/country/new/?serviceKey=APIKey
 - 서비스에 부하를 주는 행위는 금지됩니다.
 - 일회용 이메일과 같은 비정상적인 이메일 주소를 이용한 API 키 발급을 금지합니다.
 - 키를 받으신 이메일 주소로 서비스 중요 공지사항 등은 발송될 수 있습니다.
+- 불법적으로 서비스를 해킹/변조하여 이용하는경우 법적 처벌을 받을 수 있습니다.
 
 ## 📣 굿바이코로나 Corona-19-API 개인정보처리방침
 <굿바이코로나>('https://api.corona-19.kr'이하 'Corona-19-API')_은(는) 개인정보보호법에 따라 이용자의 개인정보 보호 및 권익을 보호하고 개인정보와 관련한 이용자의 고충을 원활하게 처리할 수 있도록 다음과 같은 처리방침을 두고 있습니다.
