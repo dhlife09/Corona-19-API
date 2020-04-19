@@ -1,6 +1,6 @@
 
 # [JSON] Corona-19-API
-![preview](https://user-images.githubusercontent.com/22024308/79692822-3690e600-82a2-11ea-9bcc-ea042cb0223a.png)
+![preview](https://user-images.githubusercontent.com/22024308/79693058-7c9a7980-82a3-11ea-958b-ac4bbc93e94a.png)
 
 코로나바이러스감염증-19 관련 API 서비스를 제공합니다.
 - 24시간 운영(업타임: https://status.corona-19.kr)
