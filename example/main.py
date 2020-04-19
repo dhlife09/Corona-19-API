@@ -17,7 +17,7 @@ import re #계산을 위한 특수문자 제거
 #####
 korea = "http://api.corona-19.kr/korea?serviceKey="
 country = "http://api.corona-19.kr/korea/country?serviceKey="
-key = "여기에 API 키를 입력해주세요." #API 키(https://api.corona-19.kr/ 에서 무료 발급 가능)
+key = "여기에_API키를_입력해주세요" #API 키(https://api.corona-19.kr/ 에서 무료 발급 가능)
 ###
 
 response = requests.get(korea + key)
@@ -58,6 +58,8 @@ if code == 200: #API 응답 헤더 코드가 정상(200)일 경우 데이터 제
   else: #API 응답 헤더 코드가 정상(200)이 아닐 경우, Response Code와 Response Message 노출
     print('=== [ ERROR REPORTING ] ===')
     print("\n")
+    print("API 키가 입력되지 않으면 401 Unauthorized 오류가 발생할 수 있습니다. 주석에 있는 설명을 읽어주세요.")
+    print("\n")
     print('API Response Code(KOREA):',data["resultCode"])
     print('API Response Message(KOREA):',data["resultMessage"])
     print("\n")
@@ -68,6 +70,8 @@ if code == 200: #API 응답 헤더 코드가 정상(200)일 경우 데이터 제
     print('============================')
 else: #API 응답 헤더 코드가 정상(200)이 아닐 경우, Response Code와 Response Message 노출
     print('=== [ ERROR REPORTING ] ===')
+    print("\n")
+    print("API 키가 입력되지 않으면 401 Unauthorized 오류가 발생할 수 있습니다. 주석에 있는 설명을 읽어주세요.")
     print("\n")
     print('API Response Code(KOREA):',data["resultCode"])
     print('API Response Message(KOREA):',data["resultMessage"])
