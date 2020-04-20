@@ -64,6 +64,8 @@ http://api.corona-19.kr/korea/?serviceKey=APIKey
 |notcasePercentage|국내 검사결과 음성|단위: 퍼센트|93.5|
 |TotalChecking|총 검사완료 수|단위: 명|461,233|
 |TodayRecovered|오늘 하루 완치자수|단위: 명|135|
+|TodayDeath|오늘 하루 사망자수|단위: 명|2|
+|TotalCaseBefore|전날 대비 환자수|단위: 명|-61|
 |updateTime|정보 업데이트 기준|00시정보로 오전10시경 자동 업데이트 됩니다.|코로나바이러스감염증-19 국내 발생현황 (4.5. 00시 기준)|
 |resultMessage|API 처리 결과|정상처리: (정상 처리되었습니다.) / 오류(권한이 없거나 잘못된 키 입니다. \"github.com\/dhlife09\/Corona-19-API\"에 방문하세요.)|정상 처리되었습니다.|
 
