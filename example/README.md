@@ -4,4 +4,10 @@
 ![repl](https://user-images.githubusercontent.com/22024308/79681158-d161d400-8252-11ea-8779-f4347aaaf369.JPG)
 
 파이썬 프로그램을 온라인에서 바로 실행하려면 [여기](https://corona-19.dhlife09.repl.run/)를 눌러보세요. 발급받은 API 키를 넣어주면 확인할 수 있습니다.
-소스를 확인하려면 main.py 파일을 참고하세요.
+소스를 확인하려면 sample.py 파일을 참고하세요.
+
+### PHP 예제
+![image](https://user-images.githubusercontent.com/22024308/80166983-3da95280-861a-11ea-9786-94749ad8af83.png)
+
+PHP 프로그램을 온라인에서 바로 실행하려면 [여기](https://corona-19-php--dhlife09.repl.co/)를 눌러보세요. 발급받은 API 키를 넣어주면 확인할 수 있습니다.
+소스를 확인하려면 sample.php 파일을 참고하세요.
