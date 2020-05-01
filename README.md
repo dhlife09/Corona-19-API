@@ -1,4 +1,5 @@
 
+
 # [JSON] Corona-19-API
 ![preview](https://user-images.githubusercontent.com/22024308/79693058-7c9a7980-82a3-11ea-958b-ac4bbc93e94a.png)
 
@@ -9,6 +10,13 @@
 
 Corona-19-API 사용을 원하시면 README.md 문서를 확인하세요.
 Corona-19-API 업데이트 로그 확인을 원하시면 update_log.md5 문서를 확인하세요.
+
+Corona-19-API는 2020.05.01 부터 네이버 클라우드 플랫폼의 서버 지원을 받고 있습니다.
+코로나19 극복을 위해 함께 힘써주시는 네이버 클라우드 플랫폼에게 감사드립니다!
+
+[네이버 클라우드 플랫폼 바로가기](https://www.ncloud.com/)
+
+![image](https://user-images.githubusercontent.com/22024308/80802531-89e02e00-8bea-11ea-8fc4-06b83ace99c1.png)
 
 ## 👨‍💻 목차
 - [서비스키 발급](https://github.com/dhlife09/Corona-19-API/blob/master/README.md#-0-%EC%84%9C%EB%B9%84%EC%8A%A4%ED%82%A4-%EB%B0%9C%EA%B8%89)
@@ -22,6 +30,7 @@ Corona-19-API 업데이트 로그 확인을 원하시면 update_log.md5 문서�
 ### 1. 키 발급
 - https://api.corona-19.kr/ 에 방문해서 이메일 주소, 사용 목적을 입력하신 후 "API 키 발급하기" 버튼을 눌러주세요.
 - 버튼을 누르면 메일로 API 키가 발송됩니다.
+- 2020.05.01 부터 서비스키 발급 필요 없이 서비스를 이용할 수 있습니다.
 
 ## ✔ 1. 국내 정보
  ### 📙 1-1. 국내 카운터
@@ -118,6 +127,7 @@ http://api.corona-19.kr/korea/country/new/?serviceKey=APIKey
 - 일회용 이메일과 같은 비정상적인 이메일 주소를 이용한 API 키 발급을 금지합니다.
 - 키를 받으신 이메일 주소로 서비스 중요 공지사항 등은 발송될 수 있습니다.
 - 불법적으로 서비스를 해킹/변조하여 이용하는경우 법적 처벌을 받을 수 있습니다.
+- 비상업적 조건으로 무료로 사용할 수 있습니다.
 
 ## 📣 굿바이코로나 Corona-19-API 개인정보처리방침
 <굿바이코로나>('https://api.corona-19.kr'이하 'Corona-19-API')_은(는) 개인정보보호법에 따라 이용자의 개인정보 보호 및 권익을 보호하고 개인정보와 관련한 이용자의 고충을 원활하게 처리할 수 있도록 다음과 같은 처리방침을 두고 있습니다.
