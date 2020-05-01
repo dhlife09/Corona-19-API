@@ -16,7 +16,7 @@ Corona-19-API는 2020.05.01 부터 네이버 클라우드 플랫폼의 서버 �
 
 [네이버 클라우드 플랫폼 바로가기](https://www.ncloud.com/)
 
-![image](https://user-images.githubusercontent.com/22024308/80802531-89e02e00-8bea-11ea-8fc4-06b83ace99c1.png)
+![NaverCloudPlatform](https://user-images.githubusercontent.com/22024308/80802685-fce9a480-8bea-11ea-8b61-8a6b6c01eec4.png)
 
 ## 👨‍💻 목차
 - [서비스키 발급](https://github.com/dhlife09/Corona-19-API/blob/master/README.md#-0-%EC%84%9C%EB%B9%84%EC%8A%A4%ED%82%A4-%EB%B0%9C%EA%B8%89)
