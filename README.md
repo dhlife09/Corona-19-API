@@ -4,7 +4,7 @@
 ![preview](https://user-images.githubusercontent.com/22024308/79693058-7c9a7980-82a3-11ea-958b-ac4bbc93e94a.png)
 
 코로나바이러스감염증-19 관련 API 서비스를 제공합니다.
-- 24시간 운영(업타임: https://status.corona-19.kr)
+- 24시간 운영(업타임: https://api-status.corona-19.kr)
 - API 호출 수 제한 없음
 - 공식 자료 사용(ncov.mohw.go.kr)
 
