@@ -11,13 +11,6 @@
 Corona-19-API 사용을 원하시면 README.md 문서를 확인하세요.
 Corona-19-API 업데이트 로그 확인을 원하시면 update_log.md5 문서를 확인하세요.
 
-Corona-19-API는 2020.05.01 부터 네이버 클라우드 플랫폼의 서버 지원을 받고 있습니다.
-코로나19 극복을 위해 함께 힘써주시는 네이버 클라우드 플랫폼에게 감사드립니다!
-
-[![NaverCloudPlatform](https://user-images.githubusercontent.com/22024308/80802685-fce9a480-8bea-11ea-8b61-8a6b6c01eec4.png)
-](https://www.ncloud.com/)
-
-
 ## 👨‍💻 목차
 - [서비스키 발급](https://github.com/dhlife09/Corona-19-API/blob/master/README.md#-0-%EC%84%9C%EB%B9%84%EC%8A%A4%ED%82%A4-%EB%B0%9C%EA%B8%89)
 - [국내 정보](https://github.com/dhlife09/Corona-19-API/blob/master/README.md#-1-%EA%B5%AD%EB%82%B4-%EC%A0%95%EB%B3%B4)
