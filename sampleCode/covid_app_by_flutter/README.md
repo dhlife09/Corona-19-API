@@ -1,7 +1,14 @@
 # covid_app
 
-A new Flutter application.
-
+   Copyright 2020 Dohyun Park(dhlife09) All Rights Reserved.
+ 
+   Flutter 초보가 작성한 코드라 작동은 되지만 부족한 점이 많습니다.. ㅎㅎ
+ 
+   
+   API 키를 serviceKey 변수에 넣어주셔야 합니다. API 키는 https://api.corona-19.kr 에서 무료로 발급받을 수 있습니다.
+ 
+ 
+ 
 ## Getting Started
 
 This project is a starting point for a Flutter application.
