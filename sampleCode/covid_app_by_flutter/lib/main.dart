@@ -7,7 +7,9 @@ import 'package:flutter_widget_from_html/flutter_widget_from_html.dart';
 import 'package:http/http.dart' as http;
 
 /**
+ *  Copyright 2020 Dohyun Park(dhlife09) All Rights Reserved.
  *
+ *  Flutter 초보가 작성한 코드라 작동은 되지만 부족한 점이 많습니다 ^^:
  *
  *  아래 serviceKey 변수에 API 키를 넣어주세요.
  *  API 키는 https://api.corona-19.kr 에서 무료로 발급받을 수 있습니다.
