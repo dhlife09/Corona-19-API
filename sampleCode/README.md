@@ -9,5 +9,5 @@
 ### PHP 예제
 ![image](https://user-images.githubusercontent.com/22024308/80166983-3da95280-861a-11ea-9786-94749ad8af83.png)
 
-PHP 프로그램을 온라인에서 바로 실행하려면 [여기](https://corona-19-php--dhlife09.repl.co/)를 눌러보세요. 발급받은 API 키를 넣어주면 확인할 수 있습니다.
+PHP 프로그램을 온라인에서 바로 실행하려면 [여기](https://sample2.corona-19.kr/)를 눌러보세요. 발급받은 API 키를 넣어주면 확인할 수 있습니다.
 소스를 확인하려면 sample.php 파일을 참고하세요.
