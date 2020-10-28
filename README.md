@@ -2,11 +2,12 @@
 ![preview](https://user-images.githubusercontent.com/22024308/79693058-7c9a7980-82a3-11ea-958b-ac4bbc93e94a.png)
 
 코로나바이러스감염증-19 관련 API 서비스를 무제한 무료로 제공합니다.
-- 24시간 운영(업타임: https://api-status.corona-19.kr)
+- 24시간 운영(업타임: https://status.corona-19.kr)
 - API 호출 수 제한 없음
 - 공식 자료 사용(ncov.mohw.go.kr)
 
-Corona-19-API 사용을 원하시면 README.md 문서를 확인하세요.
+Corona-19-API 사용을 원하시면 README.md 문서를 확인하여 개발해주세요.
+
 Corona-19-API 업데이트 로그 확인을 원하시면 update_log.md5 문서를 확인하세요.
 
 ## 👨‍💻 목차
@@ -28,7 +29,7 @@ Corona-19-API 업데이트 로그 확인을 원하시면 update_log.md5 문서�
  - 정보 출처: http://ncov.mohw.go.kr/
  
 ```html
-http://api.corona-19.kr/korea/?serviceKey=APIKey
+https://api.corona-19.kr/korea/?serviceKey=APIKey
 ```
 #### ※ 요청변수 [GET]
 |parameter|항목설명|요청 예제|
@@ -79,7 +80,7 @@ http://api.corona-19.kr/korea/?serviceKey=APIKey
  - 정보 출처: http://ncov.mohw.go.kr/
  
 ```html
-http://api.corona-19.kr/korea/country/new/?serviceKey=APIKey
+https://api.corona-19.kr/korea/country/new/?serviceKey=APIKey
 ```
 ※ 요청변수 [GET]
 |parameter|항목설명|예제|
@@ -104,21 +105,15 @@ http://api.corona-19.kr/korea/country/new/?serviceKey=APIKey
 - [https://github.com/dhlife09/Corona-19-API/blob/master/2_%EC%8B%9C%EB%8F%84%EB%B3%84_%EB%B0%9C%EC%83%9D%EB%8F%99%ED%96%A5_%EC%9D%91%EB%8B%B5%EC%83%98%ED%94%8C.json](https://github.com/dhlife09/Corona-19-API/blob/master/2_%EC%8B%9C%EB%8F%84%EB%B3%84_%EB%B0%9C%EC%83%9D%EB%8F%99%ED%96%A5_%EC%9D%91%EB%8B%B5%EC%83%98%ED%94%8C.json)
 
 
-## ❌ 전세계 정보(준비중)
-### ❌ 1. 전세계 카운터
-- 제공 정보: 전세계 확진자수, 전세계 완치자수, 전세계 사망자수, 전세계 현재 환자수
-- 정보 출처: https://www.worldometers.info/coronavirus/index.php
-
-
 ## 📣 굿바이코로나 Corona-19-API 이용약관
-- 굿바이코로나에서 제공하는 코로나19 관련 API는 누구나 무료로 제한없이 사용할 수 있습니다.
+- 굿바이코로나에서 제공하는 코로나19 관련 API는 비상업적 조건으로 무료로 사용할 수 있습니다. (본 서비스를 이용해 프로그램 또는 서비스를 제작하여 판매할 수 없습니다. 그 외 상업적 목적으로도 사용할 수 없습니다.)
 - 불법 서비스에서의 API 이용은 금지됩니다.
 - 서비스에 부하를 주는 행위는 금지됩니다.
 - 일회용 이메일과 같은 비정상적인 이메일 주소를 이용한 API 키 발급을 금지합니다.
 - 키를 받으신 이메일 주소로 서비스 중요 공지사항 등은 발송될 수 있습니다.
 - 불법적으로 본 서비스를 해킹/변조하여 이용하는경우 법적 처벌을 받을 수 있습니다.
-- 비상업적 조건으로 무제한 무료로 사용할 수 있습니다. (본 서비스를 이용해 프로그램 또는 서비스를 제작하여 판매할 수 없습니다. 그 외 상업적 목적으로도 사용할 수 없습니다.)
 - 본 서비스를 이용하시는경우 Corona-19-API에서 운영하는 페이지에 게제될 수 있습니다. (요청 시 게제하지 않습니다.)
+- 본 서비스는 공식 서비스가 아니며 Original Page의 구조 변경 등으로 발생할 수 있는 데이터 오류를 책임지지 않습니다.
 
 ## 📣 굿바이코로나 Corona-19-API 개인정보처리방침
 <굿바이코로나 Corona-19-API 서비스>(' https://api.corona-19.kr' 이하 'Corona-19-API')_은(는) 개인정보보호법에 따라 이용자의 개인정보 보호 및 권익을 보호하고 개인정보와 관련한 이용자의 고충을 원활하게 처리할 수 있도록 다음과 같은 처리방침을 두고 있습니다.
@@ -140,7 +135,7 @@ http://api.corona-19.kr/korea/country/new/?serviceKey=APIKey
 - 개인정보 항목 : 이메일, 접속 IP 정보  
 - 수집방법 : 홈페이지  
 - 보유근거 : 안정적인 서비스 운영, 불법이용 방지  
-- 보유기간 : 서비스 종료까지  
+- 보유기간 : 시스템 로그 파일(14일), DB(서비스 종료 때 까지)
 
 **3. 개인정보의 처리 및 보유 기간**  
   
@@ -198,10 +193,12 @@ http://api.corona-19.kr/korea/country/new/?serviceKey=APIKey
 성명 :박도현  
 직책 :운영자  
 직급 :운영자  
-연락처 : +82-507-1308-1684 (0507-1308-1684)
+이메일 :dhlife09@gmail.com
+
 ※ 개인정보 보호 담당부서로 연결됩니다.  
-  
-② 정보주체께서는 굿바이코로나(‘https://api.corona-19.kr’이하 ‘Corona-19-API) 의 서비스(또는 사업)을 이용하시면서 발생한 모든 개인정보 보호 관련 문의, 불만처리, 피해구제 등에 관한 사항을 개인정보 보호책임자로 문의하실 수 있습니다. <굿바이코로나 Corona-19-API 서비스>(' https://api.corona-19.kr' 이하 'Corona-19-API')_은(는) 정보주체의 문의에 대해 지체 없이 답변 및 처리해드릴 것입니다.  
+
+
+② 정보주체께서는 굿바이코로나(‘https://api.corona-19.kr’ 이하 ‘Corona-19-API) 의 서비스(또는 사업)을 이용하시면서 발생한 모든 개인정보 보호 관련 문의, 불만처리, 피해구제 등에 관한 사항을 개인정보 보호책임자로 문의하실 수 있습니다. <굿바이코로나 Corona-19-API 서비스>(' https://api.corona-19.kr' 이하 'Corona-19-API')_은(는) 정보주체의 문의에 대해 지체 없이 답변 및 처리해드릴 것입니다.  
 
 **9. 개인정보 처리방침 변경**
 
