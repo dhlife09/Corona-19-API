@@ -1,45 +1,45 @@
-# [FULL-FREE] Corona-19-API
+# [JSON] Corona-19-API
 ![preview](https://user-images.githubusercontent.com/22024308/79693058-7c9a7980-82a3-11ea-958b-ac4bbc93e94a.png)
 
-코로나바이러스감염증-19 관련 API 서비스를 무제한 무료로 제공합니다.
+굿바이코로나 Corona-19-API 서비스는 코로나바이러스감염증-19 관련 API 서비스를 무제한 무료로 제공합니다.
+
 - 24시간 운영(업타임: https://status.corona-19.kr)
+- 빠른 호출
 - API 호출 수 제한 없음
+- 100% 무료제공
 - 공식 자료 사용(ncov.mohw.go.kr)
 
-Corona-19-API 사용을 원하시면 README.md 문서를 확인하여 개발해주세요.
-
-Corona-19-API 업데이트 로그 확인을 원하시면 update_log.md5 문서를 확인하세요.
 
 ## 👨‍💻 목차
 - [서비스키 발급](https://github.com/dhlife09/Corona-19-API/blob/master/README.md#-0-%EC%84%9C%EB%B9%84%EC%8A%A4%ED%82%A4-%EB%B0%9C%EA%B8%89)
 - [국내 정보](https://github.com/dhlife09/Corona-19-API/blob/master/README.md#-1-%EA%B5%AD%EB%82%B4-%EC%A0%95%EB%B3%B4)
 	- [국내 카운터](https://github.com/dhlife09/Corona-19-API/blob/master/README.md#-1-1-%EA%B5%AD%EB%82%B4-%EC%B9%B4%EC%9A%B4%ED%84%B0)
 	- [시도별 발생동향](https://github.com/dhlife09/Corona-19-API/blob/master/README.md#-1-2-%EC%8B%9C%EB%8F%84%EB%B3%84-%EB%B0%9C%EC%83%9D%EB%8F%99%ED%96%A5)
-- [전세계 정보(준비중)](https://github.com/dhlife09/Corona-19-API/blob/master/README.md#-%EC%A0%84%EC%84%B8%EA%B3%84-%EC%A0%95%EB%B3%B4%EC%A4%80%EB%B9%84%EC%A4%91)
 - [굿바이코로나 Corona-19-API 이용약관](https://github.com/dhlife09/Corona-19-API/blob/master/README.md#-%EA%B5%BF%EB%B0%94%EC%9D%B4%EC%BD%94%EB%A1%9C%EB%82%98-corona-19-api-%EC%9D%B4%EC%9A%A9%EC%95%BD%EA%B4%80)
 - [굿바이코로나 Corona-19-API 개인정보처리방침](https://github.com/dhlife09/Corona-19-API/blob/master/README.md#-%EA%B5%BF%EB%B0%94%EC%9D%B4%EC%BD%94%EB%A1%9C%EB%82%98-corona-19-api-%EA%B0%9C%EC%9D%B8%EC%A0%95%EB%B3%B4%EC%B2%98%EB%A6%AC%EB%B0%A9%EC%B9%A8)
 ## 🔐 0. 서비스키 발급
 ### 1. 키 발급
 - https://api.corona-19.kr/ 에 방문해서 이메일 주소, 사용 목적을 입력하신 후 "API 키 발급하기" 버튼을 눌러주세요.
-- 버튼을 누르면 메일로 API 키가 발송됩니다.
+- 버튼을 누르면 즉시 메일로 API 키가 발송됩니다.
 
 ## ✔ 1. 국내 정보
  ### 📙 1-1. 국내 카운터
   - 제공 정보: 국내 확진자수, 국내 완치자수, 국내 사망자수, 국내 격리자수, 확진환자 현황 상위 1-5 시도명 및 퍼센트율, 누적 검사수, 누적 검사완료수, 누적 확진률, 검사중/결과양성/결과음성 카운터 및 퍼센트 등
  - 정보 출처: http://ncov.mohw.go.kr/
+ - 데이터 동기화 시간: [1차 - KST 09:45], [2차 - KST 9:55], [3차 - KST 10:15], [4차 - KST 10:50], [5차 - KST 11:45]
  
 ```html
 https://api.corona-19.kr/korea/?serviceKey=APIKey
 ```
 #### ※ 요청변수 [GET]
-|parameter|항목설명|요청 예제|
-|---|---|--|
-|serviceKey|API 인증키|http://api.corona-19.kr/korea/?serviceKey=fff098a39e0a841ab72e1d27bdee9b517|
+|version|parameter|항목설명|요청 예제|
+|--|---|---|--|
+|v1|serviceKey|API 인증키|http://api.corona-19.kr/korea/?serviceKey=fff098a39e0a841ab72e1d27bdee9b517|
 
 #### ※ 응답내용
 |항목명(영어)|항목명(한글)|비고|샘플데이터|
 |---|---|--|--|
-|resultCode|응답코드|정상(0) / 권한이 없거나 잘못된 키(401)|0|
+|resultCode|응답코드|정상(0) / Unauthorized(401)|0|
 |TotalCase|국내 확진자수|-|10,237|
 |TotalRecovered|국내 완치자수|-|6,463|
 |TotalDeath|국내 사망자수|-|183|
@@ -67,7 +67,7 @@ https://api.corona-19.kr/korea/?serviceKey=APIKey
 |TodayDeath|오늘 하루 사망자수|단위: 명|2|
 |TotalCaseBefore|전날 대비 환자수|단위: 명|-61|
 |updateTime|정보 업데이트 기준|00시정보로 오전10시경 자동 업데이트 됩니다.|코로나바이러스감염증-19 국내 발생현황 (4.5. 00시 기준)|
-|resultMessage|API 처리 결과|정상처리: (정상 처리되었습니다.) / 오류(권한이 없거나 잘못된 키 입니다. \"github.com\/dhlife09\/Corona-19-API\"에 방문하세요.)|정상 처리되었습니다.|
+|resultMessage|API 처리 결과|정상처리: (정상 처리되었습니다.) / 오류(Unauthorized)|정상 처리되었습니다.|
 
 ※ JSON 샘플 응답(전문)
 - [https://github.com/dhlife09/Corona-19-API/blob/master/1_%EA%B5%AD%EB%82%B4%EC%B9%B4%EC%9A%B4%ED%84%B0_%EC%9D%91%EB%8B%B5%EC%83%98%ED%94%8C.json](https://github.com/dhlife09/Corona-19-API/blob/master/1_%EA%B5%AD%EB%82%B4%EC%B9%B4%EC%9A%B4%ED%84%B0_%EC%9D%91%EB%8B%B5%EC%83%98%ED%94%8C.json)
@@ -78,20 +78,22 @@ https://api.corona-19.kr/korea/?serviceKey=APIKey
  ### 📙 1-2. 시도별 발생동향
   - 제공 정보: 전일대비 확진환자 증감, 확진환자수, 격리해제수, 사망자수, 발생률 등
  - 정보 출처: http://ncov.mohw.go.kr/
+ - 데이터 동기화 시간: 즉시
  
 ```html
 https://api.corona-19.kr/korea/country/new/?serviceKey=APIKey
 ```
-※ 요청변수 [GET]
-|parameter|항목설명|예제|
-|---|---|--|
-|serviceKey|API 인증키|http://api.corona-19.kr/korea/country/new/?serviceKey=fff098a39e0a841ab72e1d27bdee9b517|
+※ 요청변수 [GET] - v2부터는 데이터가 배열 형태로 제공됩니다.
+version|parameter|항목설명|예제|
+|--|---|---|--|
+|v1|serviceKey|API 인증키|http://api.corona-19.kr/korea/country/?serviceKey=fff098a39e0a841ab72e1d27bdee9b517|
+|v2(recommended)|serviceKey|API 인증키|http://api.corona-19.kr/korea/country/new/?serviceKey=fff098a39e0a841ab72e1d27bdee9b517|
 
 #### ※ 응답내용
 |항목명(영어)|항목명(한글)|비고|샘플데이터|
 |---|---|--|--|
-|resultCode|응답코드|정상(0) / 권한이 없거나 잘못된 키(401)|0|
-|resultMessage|정상처리: (정상 처리되었습니다.) / 오류(권한이 없거나 잘못된 키 입니다. \"github.com\/dhlife09\/Corona-19-API\"에 방문하세요.)|정상 처리되었습니다.|
+|resultCode|응답코드|정상(0) / Unauthorized(401)|0|
+|resultMessage|정상처리: (정상 처리되었습니다.) / 오류(Unauthorized)|정상 처리되었습니다.|
 |countryName|시도명(지역명)||서울|
 |newCase|신규확진환자수|전일대비|2|
 |totalCase|확진환자수||619|
@@ -106,14 +108,15 @@ https://api.corona-19.kr/korea/country/new/?serviceKey=APIKey
 
 
 ## 📣 굿바이코로나 Corona-19-API 이용약관
+- 본 서비스는 국가 및 어느 단체에서 운영하는 서비스가 아닙니다.
+- 본 서비스는 [업타임](https://status.corona-19.kr/) 100%를 위해 노력하지만 이를 보증하지는 않습니다.
+- 본 서비스는 데이터의 정확성을 보장하지 않습니다. (Original Page의 구조 변경 등으로 발생할 수 있는 데이터 오류 등을 책임지지 않음.)
 - 굿바이코로나에서 제공하는 코로나19 관련 API는 비상업적 조건으로 무료로 사용할 수 있습니다. (본 서비스를 이용해 프로그램 또는 서비스를 제작하여 판매할 수 없습니다. 그 외 상업적 목적으로도 사용할 수 없습니다.)
 - 불법 서비스에서의 API 이용은 금지됩니다.
 - 서비스에 부하를 주는 행위는 금지됩니다.
-- 일회용 이메일과 같은 비정상적인 이메일 주소를 이용한 API 키 발급을 금지합니다.
-- 키를 받으신 이메일 주소로 서비스 중요 공지사항 등은 발송될 수 있습니다.
+- 키를 받으신 이메일 주소로 서비스 중요 공지사항 등이 발송될 수 있습니다.
 - 불법적으로 본 서비스를 해킹/변조하여 이용하는경우 법적 처벌을 받을 수 있습니다.
-- 본 서비스를 이용하시는경우 Corona-19-API에서 운영하는 페이지에 게제될 수 있습니다. (요청 시 게제하지 않습니다.)
-- 본 서비스는 공식 서비스가 아니며 Original Page의 구조 변경 등으로 발생할 수 있는 데이터 오류를 책임지지 않습니다.
+- 이용약관을 위반할경우 발급하신 KEY가 차단될 수 있습니다.
 
 ## 📣 굿바이코로나 Corona-19-API 개인정보처리방침
 <굿바이코로나 Corona-19-API 서비스>(' https://api.corona-19.kr' 이하 'Corona-19-API')_은(는) 개인정보보호법에 따라 이용자의 개인정보 보호 및 권익을 보호하고 개인정보와 관련한 이용자의 고충을 원활하게 처리할 수 있도록 다음과 같은 처리방침을 두고 있습니다.
