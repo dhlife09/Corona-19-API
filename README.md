@@ -8,6 +8,7 @@
 - API 호출 수 제한 없음
 - 100% 무료제공
 - 공식 자료 사용(ncov.mohw.go.kr)
+- 서비스 공지 https://t.me/@goodbyecorona
 
 
 ## 👨‍💻 목차
