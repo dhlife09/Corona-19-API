@@ -24,10 +24,17 @@
 - 버튼을 누르면 즉시 메일로 API 키가 발송됩니다.
 
 ## ✔ 1. 국내 정보
+### 📖 1-0. 국내 정보 API 사용 예
+
+[Corona-19-API-굿바이코로나.pdf](https://github.com/dhlife09/Corona-19-API/files/5917140/Corona-19-API-.pdf)
+
+![Corona-19-API-굿바이코로나_1](https://user-images.githubusercontent.com/22024308/106720839-4c13a880-6647-11eb-9b77-0edc84e28886.jpg)
+![Corona-19-API-굿바이코로나_2](https://user-images.githubusercontent.com/22024308/106721350-e542bf00-6647-11eb-813c-d699681d90bf.jpg)
+
  ### 📙 1-1. 국내 카운터
-  - 제공 정보: 국내 확진자수, 국내 완치자수, 국내 사망자수, 국내 격리자수, 확진환자 현황 상위 1-5 시도명 및 퍼센트율, 누적 검사수, 누적 검사완료수, 누적 확진률, 검사중/결과양성/결과음성 카운터 및 퍼센트 등
+  - 제공 정보: 국내 확진자수, 국내 완치자수, 국내 사망자수, 국내 격리자수, 확진환자 현황 상위 1-5 시도명 및 퍼센트율, 누적 검사수, 누적 검사완료수, 검사중/결과양성/결과음성 카운터 및 퍼센트 등
  - 정보 출처: http://ncov.mohw.go.kr/
- - 데이터 동기화 시간: [1차 - KST 09:45], [2차 - KST 9:55], [3차 - KST 10:15], [4차 - KST 10:50], [5차 - KST 11:45]
+ - 데이터 동기화 시간: AM 09:45
  
 ```html
 https://api.corona-19.kr/korea/?serviceKey=APIKey
