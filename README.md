@@ -1,7 +1,10 @@
-# [JSON] Corona-19-API
-![preview](https://user-images.githubusercontent.com/22024308/79693058-7c9a7980-82a3-11ea-958b-ac4bbc93e94a.png)
 
-굿바이코로나 Corona-19-API 서비스는 코로나바이러스감염증-19 관련 API 서비스를 무제한 무료로 제공합니다.
+
+# [JSON] Corona-19-API
+
+![image](https://user-images.githubusercontent.com/22024308/108588118-dc1d5600-739a-11eb-9a11-a39739e38ae3.png)
+
+굿바이코로나 Corona-19-API 서비스는 코로나바이러스감염증-19 관련 JSON API 서비스를 무제한 무료로 제공합니다.
 
 - 24시간 운영(업타임: https://status.corona-19.kr)
 - 빠른 호출
@@ -9,6 +12,18 @@
 - 100% 무료제공
 - 공식 자료 사용(ncov.mohw.go.kr)
 - 서비스 공지 https://t.me/goodbyecorona
+- CORS 지원이 필요하신 경우 dhlife09@gmail.com 으로 연락주세요
+
+---
+**서비스 운영을 도와주세요!**
+
+굿바이코로나(Corona-19-API) 서비스는 수익 창출이나 광고를 받지 않는 100% 무료서비스 입니다. 도메인 비용, 유지보수 비용 등 서비스 운영에 도움을 주실 수 있습니다.
+
+
+[<img src = "https://user-images.githubusercontent.com/22024308/108588371-28b56100-739c-11eb-96ee-d5ac08739452.png" width="50%">](https://daum.ml/donate)
+
+[<img src = "https://user-images.githubusercontent.com/22024308/108588372-294df780-739c-11eb-9b1e-a8de84bd20ce.png" width="50%">](https://daum.ml/kakaobank)
+
 
 
 ## 👨‍💻 목차
@@ -42,7 +57,7 @@ https://api.corona-19.kr/korea/?serviceKey=APIKey
 #### ※ 요청변수 [GET]
 |version|parameter|항목설명|요청 예제|
 |--|---|---|--|
-|v1|serviceKey|API 인증키|http://api.corona-19.kr/korea/?serviceKey=fff098a39e0a841ab72e1d27bdee9b517|
+|v1|serviceKey|API 인증키|https://api.corona-19.kr/korea/?serviceKey=fff098a39e0a841ab72e1d27bdee9b517|
 
 #### ※ 응답내용
 |항목명(영어)|항목명(한글)|비고|샘플데이터|
@@ -94,7 +109,7 @@ https://api.corona-19.kr/korea/country/new/?serviceKey=APIKey
 ※ 요청변수 [GET] - v2부터는 데이터가 배열 형태로 제공됩니다.
 version|parameter|항목설명|예제|
 |--|---|---|--|
-|v1|serviceKey|API 인증키|http://api.corona-19.kr/korea/country/?serviceKey=fff098a39e0a841ab72e1d27bdee9b517|
+|v1|serviceKey|API 인증키|https://api.corona-19.kr/korea/country/?serviceKey=fff098a39e0a841ab72e1d27bdee9b517|
 |v2(recommended)|serviceKey|API 인증키|http://api.corona-19.kr/korea/country/new/?serviceKey=fff098a39e0a841ab72e1d27bdee9b517|
 
 #### ※ 응답내용
