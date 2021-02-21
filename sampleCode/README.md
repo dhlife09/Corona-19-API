@@ -3,7 +3,7 @@
 ### 파이썬 예제
 ![repl](https://user-images.githubusercontent.com/22024308/79681158-d161d400-8252-11ea-8779-f4347aaaf369.JPG)
 
-파이썬 프로그램을 온라인에서 바로 실행하려면 [여기](https://Corona-19-Python.dhlife09.repl.run)를 눌러보세요. 발급받은 API 키를 넣어주면 확인할 수 있습니다.
+파이썬 프로그램을 온라인에서 바로 실행하려면 [여기](https://sample1.corona-19.kr/)를 눌러보세요. 발급받은 API 키를 넣어주면 확인할 수 있습니다.
 소스를 확인하려면 sample.py 파일을 참고하세요.
 
 ### PHP 예제
