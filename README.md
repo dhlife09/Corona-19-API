@@ -31,6 +31,7 @@
 - [국내 정보](https://github.com/dhlife09/Corona-19-API/blob/master/README.md#-1-%EA%B5%AD%EB%82%B4-%EC%A0%95%EB%B3%B4)
 	- [국내 카운터](https://github.com/dhlife09/Corona-19-API/blob/master/README.md#-1-1-%EA%B5%AD%EB%82%B4-%EC%B9%B4%EC%9A%B4%ED%84%B0)
 	- [시도별 발생동향](https://github.com/dhlife09/Corona-19-API/blob/master/README.md#-1-2-%EC%8B%9C%EB%8F%84%EB%B3%84-%EB%B0%9C%EC%83%9D%EB%8F%99%ED%96%A5)
+	- [공통 오류메시지 설명](https://github.com/dhlife09/Corona-19-API/blob/master/README.md#-1-3-%EA%B3%B5%ED%86%B5%20%EC%98%A4%EB%A5%98%EB%A9%94%EC%8B%9C%EC%A7%80%20%EC%84%A4%EB%AA%85)
 - [굿바이코로나 Corona-19-API 이용약관](https://github.com/dhlife09/Corona-19-API/blob/master/README.md#-%EA%B5%BF%EB%B0%94%EC%9D%B4%EC%BD%94%EB%A1%9C%EB%82%98-corona-19-api-%EC%9D%B4%EC%9A%A9%EC%95%BD%EA%B4%80)
 - [굿바이코로나 Corona-19-API 개인정보처리방침](https://github.com/dhlife09/Corona-19-API/blob/master/README.md#-%EA%B5%BF%EB%B0%94%EC%9D%B4%EC%BD%94%EB%A1%9C%EB%82%98-corona-19-api-%EA%B0%9C%EC%9D%B8%EC%A0%95%EB%B3%B4%EC%B2%98%EB%A6%AC%EB%B0%A9%EC%B9%A8)
 ## 🔐 0. 서비스키 발급
@@ -62,7 +63,7 @@ https://api.corona-19.kr/korea/?serviceKey=APIKey
 #### ※ 응답내용
 |항목명(영어)|항목명(한글)|비고|샘플데이터|
 |---|---|--|--|
-|resultCode|응답코드|정상(0) / Unauthorized(401)|0|
+|resultCode|응답코드|정상(0) / 기타 메시지(오류)는 하단의 공통 오류메시지 참고|0|
 |TotalCase|국내 확진자수|-|10,237|
 |TotalRecovered|국내 완치자수|-|6,463|
 |TotalDeath|국내 사망자수|-|183|
@@ -89,7 +90,8 @@ https://api.corona-19.kr/korea/?serviceKey=APIKey
 |TodayRecovered|오늘 하루 완치자수|단위: 명|135|
 |TodayDeath|오늘 하루 사망자수|단위: 명|2|
 |TotalCaseBefore|전날 대비 환자수|단위: 명|-61|
-|updateTime|정보 업데이트 기준|00시정보로 오전10시경 자동 업데이트 됩니다.|코로나바이러스감염증-19 국내 발생현황 (4.5. 00시 기준)|
+|source|데이터 수집 방법|AUTO_BOT(자동수집), GOODBYE_CORONA(수동적으로 추가되거나 보완된 데이터)|AUTO_BOT|
+|updateTime|정보 업데이트 기준|00시 정보로 오전 10시경 자동으로 업데이트 됩니다.|코로나바이러스감염증-19 국내 발생현황 (4.5. 00시 기준)|
 |resultMessage|API 처리 결과|정상처리: (정상 처리되었습니다.) / 오류(Unauthorized)|정상 처리되었습니다.|
 
 ※ JSON 샘플 응답(전문)
@@ -115,7 +117,7 @@ version|parameter|항목설명|예제|
 #### ※ 응답내용
 |항목명(영어)|항목명(한글)|비고|샘플데이터|
 |---|---|--|--|
-|resultCode|응답코드|정상(0) / Unauthorized(401)|0|
+|resultCode|응답코드|정상(0) / 기타 메시지(오류)는 하단의 공통 오류메시지 참고|0|
 |resultMessage|정상처리: (정상 처리되었습니다.) / 오류(Unauthorized)|정상 처리되었습니다.|
 |countryName|시도명(지역명)||서울|
 |newCase|신규확진환자수|전일대비|2|
@@ -128,6 +130,14 @@ version|parameter|항목설명|예제|
 
 ※ JSON 샘플 응답(전문)
 - [https://github.com/dhlife09/Corona-19-API/blob/master/2_%EC%8B%9C%EB%8F%84%EB%B3%84_%EB%B0%9C%EC%83%9D%EB%8F%99%ED%96%A5_%EC%9D%91%EB%8B%B5%EC%83%98%ED%94%8C.json](https://github.com/dhlife09/Corona-19-API/blob/master/2_%EC%8B%9C%EB%8F%84%EB%B3%84_%EB%B0%9C%EC%83%9D%EB%8F%99%ED%96%A5_%EC%9D%91%EB%8B%B5%EC%83%98%ED%94%8C.json)
+
+ ### 📙 1-3. 공통 오류메시지 설명
+ 
+|HTTP 응답코드|오류메시지|설명|
+|--|--|--|
+|401|serviceKey가 잘못되었습니다. 대소문자, 띄어쓰기를 모두 확인하므로 정확한지 확인하세요. (The serviceKey is invalid. Both upper and lower case letters and spaces are checked, so make sure they are correct.)|GET 요청으로 보낸 serviceKey가 잘못된 상태입니다. 대소문자를 구분하며 띄어쓰기가 있지는 않은지 확인해 주세요. 메일로 발송된 API 키를 정확하게 입력하셔야 합니다.|
+|403|차단된 serviceKey로 이용할 수 없습니다. (It cannot be used with a blocked serviceKey.)|이용 약관을 위반해 차단된 API 키 입니다. 차단된 경우 서비스 이용이 불가능 합니다.|
+|500|서버 내부 오류(오류명)가 발생했습니다. 관리자에게 문의하세요. (A server internal error (Error name) has occurred. Please contact your administrator.)|서버 내부 오류가 발생한 상태입니다. 관리자에게 문의해 주세요.
 
 
 ## 📣 굿바이코로나 Corona-19-API 이용약관
