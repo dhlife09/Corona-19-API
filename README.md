@@ -12,7 +12,7 @@
 - 100% 무료제공
 - 공식 자료 사용(ncov.mohw.go.kr)
 - 서비스 공지 https://t.me/goodbyecorona
-- CORS 지원이 필요하신 경우 dhlife09@gmail.com 으로 연락주세요
+- CORS 지원
 
 ---
 **서비스 운영을 도와주세요!**
