@@ -1,4 +1,4 @@
-# Corona-19-API Sample Source Code
+# [Deprecated] Corona-19-API Sample Source Code
 굿바이코로나에서 운영하는 Corona-19-API를 활용한 프로그래밍 샘플 소스 코드를 제공합니다. 본 샘플 소스코드를 사용하려면 먼저 https://api.corona-19.kr/ 에 방문해서 API 키를 발급해주세요.
 ### 파이썬 예제
 ![repl](https://user-images.githubusercontent.com/22024308/79681158-d161d400-8252-11ea-8779-f4347aaaf369.JPG)
