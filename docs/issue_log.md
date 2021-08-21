@@ -1,5 +1,5 @@
 
-# Corona-19-API Issue Log
+# [Deprecated] Corona-19-API Issue Log
 
 Corona-19-API 서비스 이슈 로그입니다.
 
