@@ -99,7 +99,7 @@ https://api.corona-19.kr/korea/?serviceKey=APIKey
 https://api.corona-19.kr/korea/country/new/?serviceKey=APIKey
 ```
 ※ 요청변수 [GET] - v2부터는 데이터가 배열 형태로 제공됩니다.
-version|parameter|항목설명|예제|
+|version|parameter|항목설명|예제|
 |--|---|---|--|
 |v1|serviceKey|API 인증키|https://api.corona-19.kr/korea/country/?serviceKey=fff098a39e0a841ab72e1d27bdee9b517|
 |v2(recommended)|serviceKey|API 인증키|http://api.corona-19.kr/korea/country/new/?serviceKey=fff098a39e0a841ab72e1d27bdee9b517|
