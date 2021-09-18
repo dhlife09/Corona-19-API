@@ -27,7 +27,7 @@
 	- [시도별 발생동향](https://github.com/dhlife09/Corona-19-API/blob/master/README.md#-1-2-%EC%8B%9C%EB%8F%84%EB%B3%84-%EB%B0%9C%EC%83%9D%EB%8F%99%ED%96%A5)
 	- [공통 오류메시지 설명](https://github.com/dhlife09/Corona-19-API/blob/master/README.md#-1-3-%EA%B3%B5%ED%86%B5-%EC%98%A4%EB%A5%98%EB%A9%94%EC%8B%9C%EC%A7%80-%EC%84%A4%EB%AA%85)
 - [굿바이코로나 Corona-19-API 이용약관](https://github.com/dhlife09/Corona-19-API/blob/master/README.md#-%EA%B5%BF%EB%B0%94%EC%9D%B4%EC%BD%94%EB%A1%9C%EB%82%98-corona-19-api-%EC%9D%B4%EC%9A%A9%EC%95%BD%EA%B4%80)
-- [굿바이코로나 Corona-19-API 개인정보처리방침](https://github.com/dhlife09/Corona-19-API/blob/master/README.md#-%EA%B5%BF%EB%B0%94%EC%9D%B4%EC%BD%94%EB%A1%9C%EB%82%98-corona-19-api-%EA%B0%9C%EC%9D%B8%EC%A0%95%EB%B3%B4%EC%B2%98%EB%A6%AC%EB%B0%A9%EC%B9%A8)
+- [굿바이코로나 Corona-19-API 개인정보처리방침](https://github.com/dhlife09/Corona-19-API/blob/master/docs/privacy.md)
 ## 🔐 0. 서비스키 발급
 ### 1. 키 발급
 - https://api.corona-19.kr/ 에 방문해서 이메일 주소, 사용 목적을 입력하신 후 "API 키 발급하기" 버튼을 눌러주세요. (주의사항: [일부 이메일은 사용 불가](https://github.com/dhlife09/Corona-19-API/blob/master/docs/blockedDomains.md))
@@ -40,7 +40,7 @@
  ### 📙 1-1. 국내 카운터
   - 제공 정보: 국내 확진자수, 국내 완치자수, 국내 사망자수, 국내 격리자수, 확진환자 현황 상위 1-5 시도명 및 퍼센트율, 누적 검사수, 누적 검사완료수, 검사중/결과양성/결과음성 카운터 및 퍼센트 등
  - 정보 출처: http://ncov.mohw.go.kr/
- - 데이터 동기화 시간: AM 09:45
+ - 데이터 동기화 시간: [확인하기](https://github.com/dhlife09/Corona-19-API/blob/master/docs/updateTime.md)
  
 ```html
 https://api.corona-19.kr/korea/?serviceKey=APIKey
@@ -93,7 +93,7 @@ https://api.corona-19.kr/korea/?serviceKey=APIKey
  ### 📙 1-2. 시도별 발생동향
   - 제공 정보: 전일대비 확진환자 증감, 확진환자수, 격리해제수, 사망자수, 발생률 등
  - 정보 출처: http://ncov.mohw.go.kr/
- - 데이터 동기화 시간: 즉시
+ - 데이터 동기화 시간: 요청 즉시(개선 중)
  
 ```html
 https://api.corona-19.kr/korea/country/new/?serviceKey=APIKey
