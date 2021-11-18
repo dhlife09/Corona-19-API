@@ -1,4 +1,5 @@
 
+
 # [JSON] Corona-19-API
 
 ![image](https://user-images.githubusercontent.com/22024308/108588118-dc1d5600-739a-11eb-9a11-a39739e38ae3.png)
@@ -13,7 +14,7 @@
 - 서비스 공지 https://t.me/goodbyecorona
 - CORS 지원
 
-
+**현재 신규버전 API(BETA) 출시를 위해 작업 중 입니다. 자세한 사항은 [공지사항을](https://github.com/dhlife09/Corona-19-API/issues/50) 확인해 주세요.**
 
 
 |서비스 후원|자세한 사항은 [여기](https://github.com/dhlife09/Corona-19-API/blob/master/docs/donate.md)를 확인해 주세요.|
