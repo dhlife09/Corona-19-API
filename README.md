@@ -64,8 +64,8 @@ Host: api.corona-19.kr
 ```
 |version|parameter|description|example|
 |--|---|---|--|
-|v1(deprecated)|serviceKey|API 인증키|Request URL - https://api.corona-19.kr/korea/country/?serviceKey=fff098a39e0a841ab72e1d27bdee9b517<br><br>Response Content - [1_0_시도별_발생동향_응답샘플.json](https://github.com/dhlife09/Corona-19-API/blob/master/1_0_%EC%8B%9C%EB%8F%84%EB%B3%84_%EB%B0%9C%EC%83%9D%EB%8F%99%ED%96%A5_%EC%9D%91%EB%8B%B5%EC%83%98%ED%94%8C.json)|
-|[v2](https://github.com/dhlife09/Corona-19-API/1_1_시도별발생동향.md)|serviceKey|API 인증키|Request URL - https://api.corona-19.kr/korea/country/new/?serviceKey=fff098a39e0a841ab72e1d27bdee9b517<br><br>Response Content - [2_0_시도별_발생동향_응답샘플.json](https://github.com/dhlife09/Corona-19-API/blob/master/2_0_%EC%8B%9C%EB%8F%84%EB%B3%84_%EB%B0%9C%EC%83%9D%EB%8F%99%ED%96%A5_%EC%9D%91%EB%8B%B5%EC%83%98%ED%94%8C.json)
+|v1(deprecated)|serviceKey|API 인증키|Request URL - https://api.corona-19.kr/korea/country/?serviceKey=fff098a39e0a841ab72e1d27bdee9b517<br><br>Response Content - [SAMPLE_v1.0_시도별_발생동향.json](https://github.com/dhlife09/Corona-19-API/blob/master/SAMPLE_v1.0_%EC%8B%9C%EB%8F%84%EB%B3%84_%EB%B0%9C%EC%83%9D%EB%8F%99%ED%96%A5.json)|
+|[v2](https://github.com/dhlife09/Corona-19-API/blob/master/API_DOCv2.0_%EC%8B%9C%EB%8F%84%EB%B3%84_%EB%B0%9C%EC%83%9D%EB%8F%99%ED%96%A5.md)|serviceKey|API 인증키|Request URL - https://api.corona-19.kr/korea/country/new/?serviceKey=fff098a39e0a841ab72e1d27bdee9b517<br><br>Response Content - [SAMPLE_v2.0_시도별_발생동향.json](https://github.com/dhlife09/Corona-19-API/blob/master/SAMPLE_v2.0_%EC%8B%9C%EB%8F%84%EB%B3%84_%EB%B0%9C%EC%83%9D%EB%8F%99%ED%96%A5.json)
 
 ---
 
