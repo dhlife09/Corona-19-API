@@ -48,7 +48,7 @@ Host: api.corona-19.kr
 
 |version|parameter|description|example|
 |--|---|---|--|
-|[v1.0](https://github.com/dhlife09/Corona-19-API/1_0_국내카운터.md)|serviceKey|API 인증키|Request URL - https://api.corona-19.kr/korea/?serviceKey=fff098a39e0a841ab72e1d27bdee9b517<br><br>Response Content - [1_국내카운터_응답샘플.json](https://github.com/dhlife09/Corona-19-API/blob/master/1_0_%EA%B5%AD%EB%82%B4%EC%B9%B4%EC%9A%B4%ED%84%B0_%EC%9D%91%EB%8B%B5%EC%83%98%ED%94%8C.json)|
+|[v1.0](https://github.com/dhlife09/Corona-19-API/blob/master/API_DOC_v1.0_%EA%B5%AD%EB%82%B4_%EC%B9%B4%EC%9A%B4%ED%84%B0.md)|serviceKey|API 인증키|Request URL - https://api.corona-19.kr/korea/?serviceKey=fff098a39e0a841ab72e1d27bdee9b517<br><br>Response Content - [SAMPLE_v1.0_국내_카운터.json](https://github.com/dhlife09/Corona-19-API/blob/master/SAMPLE_v1.0_%EA%B5%AD%EB%82%B4_%EC%B9%B4%EC%9A%B4%ED%84%B0.json)|
 
  
 ---
