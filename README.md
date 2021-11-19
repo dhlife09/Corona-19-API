@@ -130,6 +130,7 @@ https://api.corona-19.kr/korea/country/new/?serviceKey=APIKey
 |--|--|--|
 |401|serviceKey가 잘못되었습니다. 대소문자, 띄어쓰기를 모두 확인하므로 정확한지 확인하세요. (The serviceKey is invalid. Both upper and lower case letters and spaces are checked, so make sure they are correct.)|GET 요청으로 보낸 serviceKey가 잘못된 상태입니다. 대소문자를 구분하며 띄어쓰기가 있지는 않은지 확인해 주세요. 메일로 발송된 API 키를 정확하게 입력하셔야 합니다.|
 |403|차단된 serviceKey로 이용할 수 없습니다. (It cannot be used with a blocked serviceKey.)|이용 약관을 위반해 차단된 API 키 입니다. 차단된 경우 서비스 이용이 불가능 합니다.|
+|403|서비스 종료로 구버전 시도별 발생동향 API는 사용할 수 없습니다.|더 이상 서비스를 제공하지 않으므로 상위 버전을 사용하시기 바랍니다.|
 |405|Not Allowed|GET 외의 방식으로는 서비스를 사용할 수 없습니다. Method를 다시 확인하세요. (You cannot use the service in any way other than GET. Check the Method again.)|
 |500|서버 내부 오류(오류명)가 발생했습니다. 관리자에게 문의하세요. (A server internal error (Error name) has occurred. Please contact your administrator.)|서버 내부 오류가 발생한 상태입니다. 관리자에게 문의해 주세요.
 
