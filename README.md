@@ -6,12 +6,11 @@
 
 굿바이코로나 Corona-19-API 서비스는 코로나바이러스감염증-19 관련 JSON API 서비스를 무제한 무료로 제공합니다.
 
-- 24시간 운영(업타임: https://status.corona-19.kr)
+- 24시간 운영(업타임: https://stats.uptimerobot.com/LvZ47hP5ZM)
 - 빠른 호출
 - API 호출 수 제한 없음
 - 100% 무료제공
 - 공식 자료 사용(ncov.mohw.go.kr)
-- 서비스 공지 https://t.me/goodbyecorona
 - CORS 지원
 
 **현재 신규버전 API(BETA) 출시를 위해 작업 중 입니다. 자세한 사항은 [공지사항을](https://github.com/dhlife09/Corona-19-API/issues/50) 확인해 주세요.**
@@ -137,7 +136,7 @@ https://api.corona-19.kr/korea/country/new/?serviceKey=APIKey
 
 ## 📣 굿바이코로나 Corona-19-API 이용약관
 - 본 서비스는 국가 및 어느 단체에서 운영하는 서비스가 아닙니다.
-- 본 서비스는 [업타임](https://status.corona-19.kr/) 100%를 위해 노력하지만 이를 보증하지는 않습니다.
+- 본 서비스는 [업타임](https://stats.uptimerobot.com/LvZ47hP5ZM) 100%를 위해 노력하지만 이를 보증하지는 않습니다.
 - 본 서비스는 데이터의 정확성을 보장하지 않습니다. (Original Page의 구조 변경 등으로 발생할 수 있는 데이터 오류 등을 책임지지 않음.)
 - 굿바이코로나에서 제공하는 코로나19 관련 API는 비상업적 조건으로 무료로 사용할 수 있습니다. (본 서비스를 이용해 프로그램 또는 서비스를 제작하여 판매할 수 없습니다. 그 외 상업적 목적으로도 사용할 수 없습니다.)
 - 불법 서비스에서의 API 이용은 금지됩니다.
