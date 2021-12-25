@@ -23,7 +23,7 @@
 - [굿바이코로나 Corona-19-API 이용약관](https://github.com/dhlife09/Corona-19-API/blob/master/docs/terms.md)
 - [굿바이코로나 Corona-19-API 개인정보처리방침](https://github.com/dhlife09/Corona-19-API/blob/master/docs/privacy.md)
 - [데이터 업데이트 시간(KST)](https://github.com/dhlife09/Corona-19-API/blob/master/docs/updateTime.md)
-- [출처](https://github.com/dhlife09/Corona-19-API/blob/master/docs/source.md)
+- [데이터 출처](https://github.com/dhlife09/Corona-19-API/blob/master/docs/source.md)
 ## 🔐 0. 서비스키 발급
 ### 1. 키 발급
 - https://api.corona-19.kr/ 에 방문해서 이메일 주소, 사용 목적을 입력하신 후 "API 키 발급하기" 버튼을 눌러주세요. 
