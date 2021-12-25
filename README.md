@@ -77,3 +77,12 @@ Host: api.corona-19.kr
 |404|NOT_FOUND|요청하신 리소스를 찾을 수 없습니다. 올바른 요청인지 확인하세요.|
 |500|SERVER_INTERNAL_ERROR|서버 내부 오류가 발생한 상태입니다. 관리자에게 문의해 주세요.
 
+---
+
+![dhlife09-citibank](https://goodbye-corona.github.io/img_common/dhlife09_citibank.jpg)
+
+굿바이코로나(Corona-19-API) 서비스는 수익 창출이나 광고를 받지 않는 100% 무료서비스 입니다.
+
+도메인 비용, 유지보수 비용 등 서비스 운영에 도움을 주실 수 있습니다.
+
+서비스를 이용해주셔서 감사합니다.
