@@ -1,11 +1,18 @@
 # [v1.0] 국내 카운터 Response
 
-```
+
 version 1.0 (API Update: 21-11-19 & Document Update: 21-11-19)
 
 ** 처음에 배포용으로 제작하지 않아 Type이 Int나 Float가 아닌 대부분 String으로 제공됩니다. 신규 API에서는 해당 문제가 해결되었으므로 참고 부탁드립니다.
 
 ** 21-11-02: 코로나19 공식 홈페이지가 변경되어 일부 정보가 제공되지 않습니다. 자세한 사항은 이슈(#58)를 확인해 주세요.
+
+---
+
+ 
+```
+GET /korea/?serviceKey={API_KEY}
+Host: api.corona-19.kr
 ```
 
 |Key|Type|항목명(한글)|Description|Sample Data|
