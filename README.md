@@ -7,19 +7,15 @@
 
 굿바이코로나 Corona-19-API 서비스는 코로나바이러스감염증-19 관련 JSON API 서비스를 무제한 무료로 제공합니다.
 
-- 24시간 운영(업타임: https://stats.uptimerobot.com/LvZ47hP5ZM)
+- [24시간 운영](https://stats.uptimerobot.com/LvZ47hP5ZM)
 - 빠른 호출
 - API 호출 수 제한 없음
 - 100% 무료제공
-- 공식 자료 사용(ncov.mohw.go.kr)
+- [공식 자료 사용](http://ncov.mohw.go.kr)
 - CORS 지원
+- **[이용약관](https://github.com/dhlife09/Corona-19-API/blob/master/README.md#-%EA%B5%BF%EB%B0%94%EC%9D%B4%EC%BD%94%EB%A1%9C%EB%82%98-corona-19-api-%EC%9D%B4%EC%9A%A9%EC%95%BD%EA%B4%80)과 [개인정보처리방침](https://github.com/dhlife09/Corona-19-API/blob/master/docs/privacy.md)을 꼭 확인해 주세요!**
 
-[![image](https://user-images.githubusercontent.com/22024308/142575362-2288e2b6-05bf-43da-8944-9c083026a214.png)](https://github.com/dhlife09/Corona-19-API/discussions/62)
-
-
-|서비스 후원|자세한 사항은 [여기](https://github.com/dhlife09/Corona-19-API/blob/master/docs/donate.md)를 확인해 주세요.|
-|--|--|
-|확인사항!|**[이용약관](https://github.com/dhlife09/Corona-19-API/blob/master/README.md#-%EA%B5%BF%EB%B0%94%EC%9D%B4%EC%BD%94%EB%A1%9C%EB%82%98-corona-19-api-%EC%9D%B4%EC%9A%A9%EC%95%BD%EA%B4%80)과 [개인정보처리방침](https://github.com/dhlife09/Corona-19-API/blob/master/docs/privacy.md)을 꼭 확인해 주세요!**|
+---
 
 ## 👨‍💻 목차
 - [서비스키 발급](https://github.com/dhlife09/Corona-19-API/blob/master/README.md#-0-%EC%84%9C%EB%B9%84%EC%8A%A4%ED%82%A4-%EB%B0%9C%EA%B8%89)
@@ -31,8 +27,9 @@
 - [굿바이코로나 Corona-19-API 개인정보처리방침](https://github.com/dhlife09/Corona-19-API/blob/master/docs/privacy.md)
 ## 🔐 0. 서비스키 발급
 ### 1. 키 발급
-- https://api.corona-19.kr/ 에 방문해서 이메일 주소, 사용 목적을 입력하신 후 "API 키 발급하기" 버튼을 눌러주세요. (주의사항: [일부 이메일은 사용 불가](https://github.com/dhlife09/Corona-19-API/blob/master/docs/blockedDomains.md))
+- https://api.corona-19.kr/ 에 방문해서 이메일 주소, 사용 목적을 입력하신 후 "API 키 발급하기" 버튼을 눌러주세요. 
 - 버튼을 누르면 즉시 메일로 API 키가 발송됩니다.
+- 메일 관련 질문이 있으신 경우, [여기](https://github.com/dhlife09/Corona-19-API/docs/QnA_email.md)에서 Q&A를 확인해 주세요.
 
 ## ✔ 1. 국내 정보
 ### 📖 1-0. 국내 카운터
@@ -91,6 +88,3 @@ Host: api.corona-19.kr
 - 키를 받으신 이메일 주소로 서비스 중요 공지사항 등이 발송될 수 있습니다.
 - 불법적으로 본 서비스를 해킹/변조하여 이용하는경우 법적 처벌을 받을 수 있습니다.
 - 이용약관을 위반할경우 발급하신 KEY가 차단될 수 있습니다.
-
-
-
