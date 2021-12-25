@@ -1,0 +1,27 @@
+{
+    "API": {
+        "apiName": "Corona-19-API-예방접종현황-beta",
+        "dataTime": "12.24., 24시 기준",
+        "dataSource": "Goodbye-Corona-Bot",
+        "resultCode": "200",
+        "resultMessage": "정상 처리되었습니다."
+    },
+    "korea": {
+        "countryNm": "합계",
+        "vaccine_1": {
+            "vaccine_1": 43968611,
+            "vaccine_1_new": 78717,
+            "vaccine_1_old": 43889894
+        },
+        "vaccine_2": {
+            "vaccine_2": 42307415,
+            "vaccine_2_new": 43219,
+            "vaccine_2_old": 42264196
+        },
+        "vaccine_3": {
+            "vaccine_3": 15114773,
+            "vaccine_3_new": 777917,
+            "vaccine_3_old": 14336856
+        }
+    }
+} 
