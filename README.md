@@ -70,20 +70,10 @@ Host: api.corona-19.kr
  
 |HTTP 응답코드|오류메시지|설명|
 |--|--|--|
-|401|serviceKey가 잘못되었습니다. 대소문자, 띄어쓰기를 모두 확인하므로 정확한지 확인하세요. (The serviceKey is invalid. Both upper and lower case letters and spaces are checked, so make sure they are correct.)|GET 요청으로 보낸 serviceKey가 잘못된 상태입니다. 대소문자를 구분하며 띄어쓰기가 있지는 않은지 확인해 주세요. 메일로 발송된 API 키를 정확하게 입력하셔야 합니다.|
-|403|차단된 serviceKey로 이용할 수 없습니다. (It cannot be used with a blocked serviceKey.)|이용 약관을 위반해 차단된 API 키 입니다. 차단된 경우 서비스 이용이 불가능 합니다.|
+|401|SERVICEKEY_ERROR|GET 요청으로 보낸 serviceKey가 잘못된 상태입니다. 서비스키는 대소문자를 구분하며 띄어쓰기(%20)가 있는 경우 제거해 주세요. 메일로 발송된 API 키를 정확하게 입력하셔야 합니다.|
+|403|차단된 serviceKey로 이용할 수 없습니다.|이용 약관을 위반해 차단된 API 키 입니다. 차단된 경우 서비스 이용이 불가능 합니다.|
 |403|서비스 종료로 구버전 시도별 발생동향 API는 사용할 수 없습니다.|더 이상 서비스를 제공하지 않으므로 상위 버전을 사용하시기 바랍니다.|
-|405|Not Allowed|GET 외의 방식으로는 서비스를 사용할 수 없습니다. Method를 다시 확인하세요. (You cannot use the service in any way other than GET. Check the Method again.)|
-|500|서버 내부 오류(오류명)가 발생했습니다. 관리자에게 문의하세요. (A server internal error (Error name) has occurred. Please contact your administrator.)|서버 내부 오류가 발생한 상태입니다. 관리자에게 문의해 주세요.
+|403|FORBIDDEN|올바른 Request Method(GET)인지 확인하세요.|
+|404|NOT_FOUND|요청하신 리소스를 찾을 수 없습니다. 올바른 요청인지 확인하세요.|
+|500|SERVER_INTERNAL_ERROR|서버 내부 오류가 발생한 상태입니다. 관리자에게 문의해 주세요.
 
-
-## 📣 굿바이코로나 Corona-19-API 이용약관
-- 본 서비스는 국가 및 어느 단체에서 운영하는 서비스가 아닙니다.
-- 본 서비스는 [업타임](https://stats.uptimerobot.com/LvZ47hP5ZM) 100%를 위해 노력하지만 이를 보증하지는 않습니다.
-- 본 서비스는 데이터의 정확성을 보장하지 않습니다. (Original Page의 구조 변경 등으로 발생할 수 있는 데이터 오류 등을 책임지지 않음.)
-- 굿바이코로나에서 제공하는 코로나19 관련 API는 비상업적 조건으로 무료로 사용할 수 있습니다. (본 서비스를 이용해 프로그램 또는 서비스를 제작하여 판매할 수 없습니다. 그 외 상업적 목적으로도 사용할 수 없습니다.)
-- 불법 서비스에서의 API 이용은 금지됩니다.
-- 서비스에 부하를 주는 행위는 금지됩니다.
-- 키를 받으신 이메일 주소로 서비스 중요 공지사항 등이 발송될 수 있습니다.
-- 불법적으로 본 서비스를 해킹/변조하여 이용하는경우 법적 처벌을 받을 수 있습니다.
-- 이용약관을 위반할경우 발급하신 KEY가 차단될 수 있습니다.
