@@ -79,7 +79,8 @@ Host: api.corona-19.kr
 
 ---
 
-![dhlife09-citibank](https://goodbye-corona.github.io/img_common/dhlife09_citibank.jpg)
+![dhlife09-citibank-donate](https://user-images.githubusercontent.com/22024308/147379028-48b44526-0b71-41c5-9ee1-3d735fe92d01.jpg)
+
 
 굿바이코로나(Corona-19-API) 서비스는 수익 창출이나 광고를 받지 않는 100% 무료서비스 입니다.
 
