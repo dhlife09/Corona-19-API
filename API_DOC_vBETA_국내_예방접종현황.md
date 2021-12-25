@@ -7,7 +7,9 @@ version BETA (API Update: 21-12-25 & Document Update: 21-12-26)
 
 ** 베타 버전으로 아래 항목들은 변경될 수 있습니다.
 
- 
+---
+
+
 ```
 GET /korea/vaccine/?serviceKey={API_KEY}
 Host: api.corona-19.kr
