@@ -17,7 +17,7 @@
 
 
 ## 👨‍💻 목차
-- [서비스키 발급](https://github.com/dhlife09/Corona-19-API/blob/master/README.md#-0-%EC%84%9C%EB%B9%84%EC%8A%A4%ED%82%A4-%EB%B0%9C%EA%B8%89)
+- [서비스키 발급](https://github.com/dhlife09/Corona-19-API/blob/master/README.md#-%EC%84%9C%EB%B9%84%EC%8A%A4%ED%82%A4-%EB%B0%9C%EA%B8%89)
 - [국내 정보](https://github.com/dhlife09/Corona-19-API/blob/master/README.md#-1-%EA%B5%AD%EB%82%B4-%EC%A0%95%EB%B3%B4)
 - [공통 오류메시지 설명](https://github.com/dhlife09/Corona-19-API/blob/master/docs/errorMessage.md)
 - [굿바이코로나 Corona-19-API 이용약관](https://github.com/dhlife09/Corona-19-API/blob/master/docs/terms.md)
@@ -28,7 +28,7 @@
 ### 키 발급
 - https://api.corona-19.kr/ 에 방문해서 이메일 주소, 사용 목적을 입력하신 후 "API 키 발급하기" 버튼을 눌러주세요. 
 - 버튼을 누르면 즉시 메일로 API 키가 발송됩니다.
-- 메일 관련 질문이 있으신 경우, [여기](https://github.com/dhlife09/Corona-19-API/docs/QnA_email.md)에서 Q&A를 확인해 주세요.
+- 메일 관련 질문이 있으신 경우, [여기](https://github.com/dhlife09/Corona-19-API/blob/master/docs/QnA_email.md)에서 Q&A를 확인해 주세요.
 
 ## ✔ 국내 정보
  - 제공 정보: 각 API의 version을 클릭하면 자세한 정보를 확인할 수 있습니다.
