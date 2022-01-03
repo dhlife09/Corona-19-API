@@ -25,59 +25,45 @@ text = response.text
 data = json.loads(text)
 
 response2 = requests.get(country + key)
-text2 = response2.text
-data2 = json.loads(text2)
+import requests
+import json
 
-#####
-code = response.status_code
-code2 = response2.status_code
+korea = "https://api.corona-19.kr/korea/beta/?serviceKey=" # 국내 코로나 발생 동향
+vaccine = "https://api.corona-19.kr/korea/vaccine/?serviceKey=" # 예방접종 현황
+apikey = "56My93v4fCOcdsQ2qeWlpUt1xhTGbnawP" # API 키를 다음 란에 입력해 주세요.
 
-if code == 200: #API 응답 헤더 코드가 정상(200)일 경우 데이터 제공
-  if code2 == 200:
-    print('[',(data["updateTime"]),']')
-    print("\n")
+response = requests.get(korea + apikey)
+message = response.text
+data = json.loads(message)
 
-    print('확진자:',data["TotalCase"],' [+',data2["data0_1"],']')
-    print('완치자:',data["TotalRecovered"],' [+',data["TodayRecovered"],']')
-    print('사망자:',data["TotalDeath"])
-    print('치료중:',data["NowCase"])
-    print("\n")
+response2 = requests.get(vaccine + apikey)
+message2 = response2.text
+data2 = json.loads(message2)
 
-    a = int(re.sub('[-=.,#/?:$}]', '', data["caseCount"]))
-    b = int(re.sub('[-=.,#/?:$}]', '', data["TotalChecking"]))
-    
-    caseper = a / b * 100 #확진율계산법: 양성/검사완료수 * 100
+status = response.status_code
+status2 = response2.status_code
 
-    print('확진율:',round(caseper,2),"%")
-    print('완치율:',data["recoveredPercentage"],"%")
-    print('사망률:',data["deathPercentage"],"%")
-
-    print("\n")
-    print('API Service by Goodbye-Corona(https://api.corona-19.kr)')
-    print('===========================================================')
-  else: #API 응답 헤더 코드가 정상(200)이 아닐 경우, Response Code와 Response Message 노출
-    print('=== [ ERROR REPORTING ] ===')
-    print("\n")
-    print("API 키가 입력되지 않으면 401 Unauthorized 오류가 발생할 수 있습니다. 주석에 있는 설명을 읽어주세요.")
-    print("\n")
-    print('API Response Code(KOREA):',data["resultCode"])
-    print('API Response Message(KOREA):',data["resultMessage"])
-    print("\n")
-    print('API Response Code(COUNTRY):',data2["resultCode"])
-    print('API Response Message(COUNTRY):',data2["resultMessage"])
-    print("\n")
-    print('API Service by Goodbye-Corona(https://api.corona-19.kr)')
-    print('============================')
-else: #API 응답 헤더 코드가 정상(200)이 아닐 경우, Response Code와 Response Message 노출
-    print('=== [ ERROR REPORTING ] ===')
-    print("\n")
-    print("API 키가 입력되지 않으면 401 Unauthorized 오류가 발생할 수 있습니다. 주석에 있는 설명을 읽어주세요.")
-    print("\n")
-    print('API Response Code(KOREA):',data["resultCode"])
-    print('API Response Message(KOREA):',data["resultMessage"])
-    print("\n")
-    print('API Response Code(COUNTRY):',data2["resultCode"])
-    print('API Response Message(COUNTRY):',data2["resultMessage"])
-    print("\n")
-    print('API Service by Goodbye-Corona(https://api.corona-19.kr)')
-    print('============================')
+if status == 200: # 국내 코로나 발생 동향이 정상적으로 불러와졌을경우
+    if status2 == 200: # 예방접종 현황이 정상적으로 불러와졌을경우
+        print("Corona-19-API Python 국내 코로나 발생 동향")
+        print("\n")
+        print('[',(data["API"]["updateTime"]),']')
+        print("\n")
+        print('국내 확진자 수:', format(data["korea"]["totalCnt"], ','), "명")
+        print('전일 신규합계 확진자 수:', format(data["korea"]["incDec"], ','), "명")
+        print('국내 완치자 수:', format(data["korea"]["recCnt"], ','), "명")
+        print('국내 사망자 수:', format(data["korea"]["deathCnt"], ','), "명")
+        print('국내 치료중 수:', format(data["korea"]["isolCnt"], ','), "명")
+        print('국내 코로나 발생률:', format(data["korea"]["qurRate"], ','), "%")
+        print("\n")
+        print("Corona-19-API Python 국내 예방접종 현황")
+        print("\n")
+        print('[', (data2["API"]["apiName"]), (data2["API"]["dataTime"]), ']')
+        print("\n")
+        print('1차 접종 완료 수:', format(data2["korea"]["vaccine_1"]["vaccine_1"], ','), "명")
+        print('1차 접종 전일 신규합계: +', format(data2["korea"]["vaccine_1"]["vaccine_1_new"], ','), "명")
+        print("\n")
+        print('2차 접종 완료 수:', format(data2["korea"]["vaccine_2"]["vaccine_2"], ','))
+        print('2차 접종 전일 신규합계: +', format(data2["korea"]["vaccine_2"]["vaccine_2_new"], ','),  "명")
+else:
+    print("정상적으로 처리되지 않았습니다. API 키를 올바르게 입력했는지 확인해주세요.")
