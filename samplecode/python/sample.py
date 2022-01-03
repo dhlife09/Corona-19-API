@@ -15,7 +15,7 @@ import json
 
 korea = "https://api.corona-19.kr/korea/beta/?serviceKey=" # 국내 코로나 발생 동향
 vaccine = "https://api.corona-19.kr/korea/vaccine/?serviceKey=" # 예방접종 현황
-apikey = "56My93v4fCOcdsQ2qeWlpUt1xhTGbnawP" # API 키를 다음 란에 입력해 주세요.
+apikey = "" # API 키를 다음 란에 입력해 주세요.
 
 response = requests.get(korea + apikey)
 message = response.text
