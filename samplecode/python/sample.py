@@ -12,21 +12,6 @@ Copyright © dhlife09. All rights reserved.
 
 import requests
 import json
-import re #계산을 위한 특수문자 제거
-
-#####
-korea = "http://api.corona-19.kr/korea?serviceKey="
-country = "http://api.corona-19.kr/korea/country?serviceKey="
-key = "여기에_API키를_입력해주세요" #API 키(https://api.corona-19.kr/ 에서 무료 발급 가능)
-###
-
-response = requests.get(korea + key)
-text = response.text
-data = json.loads(text)
-
-response2 = requests.get(country + key)
-import requests
-import json
 
 korea = "https://api.corona-19.kr/korea/beta/?serviceKey=" # 국내 코로나 발생 동향
 vaccine = "https://api.corona-19.kr/korea/vaccine/?serviceKey=" # 예방접종 현황
