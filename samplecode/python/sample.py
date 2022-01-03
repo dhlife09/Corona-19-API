@@ -6,7 +6,7 @@
 https://api.corona-19.kr/
 https://github.com/dhlife09/Corona-19-API
 
-Copyright © dhlife09. All rights reserved.
+Copyright © dhlife09 & DevEnne. All rights reserved.
 
 '''
 
