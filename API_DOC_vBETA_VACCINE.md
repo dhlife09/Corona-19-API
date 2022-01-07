@@ -1,7 +1,7 @@
 # [vBETA] VACCINE-BETA-API Response
  
 
-version BETA (API Update: 21-12-25 & Document Update: 21-12-26)
+version BETA (API Update: 22-01-08 & Document Update: 22-01-08)
  
 ** 해당 버전은 공개 베타 버전 입니다.
 
@@ -17,7 +17,7 @@ Host: api.corona-19.kr
  
 |Key|Type|항목명(한글)|Description|Sample Data|
 |---|--|---|--|--|
-|apiName|String|API명|추후 업데이트로 사라질 수 있습니다.|Corona-19-API-예방접종현황-beta|
+|apiName|String|API명|추후 업데이트로 사라질 수 있습니다.|Corona-19-API-시도별-예방접종현황-beta|
 |dataTime|String|데이터 업데이트 시간|-|12.24., 24시 기준|
 |dataSource|String|데이터 수집 방법|-|Goodbye-Corona-Bot|
 |resultCode|String|API 처리 결과 코드|-|200|
