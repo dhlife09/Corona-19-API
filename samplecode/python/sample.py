@@ -53,5 +53,6 @@ if status == 200: #국내 코로나 발생동향이 정상적으로 불러와졌
         print("\n")
         print('3차 접종 완료 수:', format(data2["korea"]["vaccine_3"]["vaccine_3"], ','))
         print('3차 접종 전일 신규합계: +', format(data2["korea"]["vaccine_3"]["vaccine_3_new"], ','),  "명")
+        print('\n')
 else:
     print("정상적으로 처리되지 않았습니다. API 키를 올바르게 입력했는지 확인해주세요.")
