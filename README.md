@@ -13,7 +13,7 @@
 - 100% 무료제공
 - [공식 자료 사용](http://ncov.mohw.go.kr)
 - CORS 지원
-- **[이용약관](https://github.com/dhlife09/Corona-19-API/blob/master/README.md#-%EA%B5%BF%EB%B0%94%EC%9D%B4%EC%BD%94%EB%A1%9C%EB%82%98-corona-19-api-%EC%9D%B4%EC%9A%A9%EC%95%BD%EA%B4%80)과 [개인정보처리방침](https://github.com/dhlife09/Corona-19-API/blob/master/docs/privacy.md)을 꼭 확인해 주세요!**
+- **[이용약관](https://github.com/dhlife09/Corona-19-API/blob/master/docs/terms.md)과 [개인정보처리방침](https://github.com/dhlife09/Corona-19-API/blob/master/docs/privacy.md)을 꼭 확인해 주세요!**
 
 
 ## 👨‍💻 목차
