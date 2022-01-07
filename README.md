@@ -11,8 +11,9 @@
 - 빠른 호출
 - API 호출 수 제한 없음
 - 100% 무료제공
-- [공식 자료 사용](http://ncov.mohw.go.kr)
+- [공식 자료 사용](https://github.com/dhlife09/Corona-19-API/blob/master/docs/source.md)
 - CORS 지원
+- [공지사항 & 문의](https://github.com/dhlife09/Corona-19-API/discussions)
 - **[이용약관](https://github.com/dhlife09/Corona-19-API/blob/master/docs/terms.md)과 [개인정보처리방침](https://github.com/dhlife09/Corona-19-API/blob/master/docs/privacy.md)을 꼭 확인해 주세요!**
 
 
