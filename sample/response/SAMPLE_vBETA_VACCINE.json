@@ -1,6 +1,6 @@
 {
     "API": {
-        "apiName": "Corona-19-API-시도별-예방접종현황-beta",
+        "apiName": "Corona-19-API-예방접종현황-beta",
         "dataTime": "1.6., 24시 기준",
         "dataSource": "Goodbye-Corona-Bot",
         "resultCode": "200",
