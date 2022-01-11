@@ -42,14 +42,13 @@
 |**국내 예방접종현황**|[vBETA](https://github.com/dhlife09/Corona-19-API/blob/master/API_DOC_vBETA_VACCINE.md)|국내 시도별 예방접종현황(1, 2, 3차 - 전체, 신규, 기존) 데이터 제공|Request URL - https://api.corona-19.kr/korea/vaccine/?serviceKey={API_KEY}<br><br>Response Content - [SAMPLE_vBETA_VACCINE.json](https://github.com/dhlife09/Corona-19-API/blob/master/sample/response/SAMPLE_vBETA_VACCINE.json)|
 
 
----
 
 ## ❤️ 서비스 운영에 도움을 주신 분들
 - [Oracle Cloud](https://www.oracle.com/cloud/) - 메인 서버, API 서버가 운영되고 있습니다.
-- [DevEnne](https://github.com/DevEnne)님 - 예제 소스코드를 제작해주셨습니다.
-- 양*현님(22/01/11)
+- [DevEnne](https://github.com/DevEnne)님 - 예제 소스코드 제작, 데이터 검토 등 도움을 주셨습니다.
+- 양＊현님, 김＊이님 - 서비스에 후원해주셔서 감사합니다.
 
----
+
 
 ![dhlife09-citibank-donate](https://user-images.githubusercontent.com/22024308/147379028-48b44526-0b71-41c5-9ee1-3d735fe92d01.jpg)
 
@@ -65,6 +64,5 @@
 Copyright 2020-2022 dhlife09(Goodbye-Corona) All Rights Reserved.
 
 본 서비스에서 제공하는 정보는 공식 자료로 사용되기에 적합하지 않습니다.
-
 서비스 이용 전 반드시 이용약관과 개인정보처리방침을 확인하시기 바랍니다.
 ```
