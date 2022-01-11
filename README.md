@@ -1,6 +1,3 @@
-
-
-
 # [JSON] Corona-19-API
 
 ![image](https://user-images.githubusercontent.com/22024308/108588118-dc1d5600-739a-11eb-9a11-a39739e38ae3.png)
@@ -35,7 +32,7 @@
  - 제공 정보: 각 API의 version을 클릭하면 자세한 정보를 확인할 수 있습니다.
  - [정보 출처 확인](https://github.com/dhlife09/Corona-19-API/blob/master/docs/source.md)
  - [데이터 동기화 시간 확인](https://github.com/dhlife09/Corona-19-API/blob/master/docs/updateTime.md)
- - API에 bold 처리되어 있는 API 사용을 권장합니다. (최신 버전)
+ - API명에 bold 처리되어 있는 API 사용을 권장합니다. (최신 버전)
 
 |API|version|description|example|
 |--|---|---|--|
@@ -47,13 +44,27 @@
 
 ---
 
-굿바이코로나(Corona-19-API) 서비스는 수익 창출이나 광고를 받지 않는 100% 무료서비스 입니다.
+## ❤️ 서비스 운영에 도움을 주신 분들
+- [Oracle Cloud](https://www.oracle.com/cloud/) - 메인 서버, API 서버가 운영되고 있습니다.
+- [DevEnne](https://github.com/DevEnne)님 - 예제 소스코드를 제작해주셨습니다.
+- 양*현님(22/01/11)
+
+---
+
+![dhlife09-citibank-donate](https://user-images.githubusercontent.com/22024308/147379028-48b44526-0b71-41c5-9ee1-3d735fe92d01.jpg)
+
+
+굿바이코로나(Corona-19-API) 서비스는 수익 창출이나 광고를 받지 않는 무료서비스 입니다.
 
 도메인 비용, 유지보수 비용 등 서비스 운영에 도움을 주실 수 있습니다.
 
 서비스를 이용해주셔서 감사합니다.
 
 
-![dhlife09-citibank-donate](https://user-images.githubusercontent.com/22024308/147379028-48b44526-0b71-41c5-9ee1-3d735fe92d01.jpg)
+```
+Copyright 2020-2022 dhlife09(Goodbye-Corona) All Rights Reserved.
 
+본 서비스에서 제공하는 정보는 공식 자료로 사용되기에 적합하지 않습니다.
 
+서비스 이용 전 반드시 이용약관과 개인정보처리방침을 확인하시기 바랍니다.
+```
