@@ -1,0 +1,333 @@
+{
+    "API": {
+        "apiName": "Corona-19-API-예방접종현황-v1",
+        "dataTime": "01.14., 00시 기준",
+        "dataSource": "Goodbye-Corona-Bot",
+        "resultCode": "200",
+        "resultMessage": "정상 처리되었습니다."
+    },
+    "korea": {
+        "countryNm": "합계",
+        "vaccine_1": {
+            "vaccine_1": 44447172,
+            "vaccine_1_new": 15881,
+            "vaccine_1_old": 44431291
+        },
+        "vaccine_2": {
+            "vaccine_2": 43381612,
+            "vaccine_2_new": 75964,
+            "vaccine_2_old": 43305648
+        },
+        "vaccine_3": {
+            "vaccine_3": 22442130,
+            "vaccine_3_new": 335121,
+            "vaccine_3_old": 22107009
+        }
+    },
+    "seoul": {
+        "countryNm": "서울",
+        "vaccine_1": {
+            "vaccine_1": 8230606,
+            "vaccine_1_new": 2379,
+            "vaccine_1_old": 8228227
+        },
+        "vaccine_2": {
+            "vaccine_2": 8060382,
+            "vaccine_2_new": 10320,
+            "vaccine_2_old": 8050062
+        },
+        "vaccine_3": {
+            "vaccine_3": 4080181,
+            "vaccine_3_new": 60252,
+            "vaccine_3_old": 4019929
+        }
+    },
+    "busan": {
+        "countryNm": "부산",
+        "vaccine_1": {
+            "vaccine_1": 2845893,
+            "vaccine_1_new": 960,
+            "vaccine_1_old": 2844933
+        },
+        "vaccine_2": {
+            "vaccine_2": 2774965,
+            "vaccine_2_new": 4848,
+            "vaccine_2_old": 2770117
+        },
+        "vaccine_3": {
+            "vaccine_3": 1478167,
+            "vaccine_3_new": 18421,
+            "vaccine_3_old": 1459746
+        }
+    },
+    "daegu": {
+        "countryNm": "대구",
+        "vaccine_1": {
+            "vaccine_1": 1994689,
+            "vaccine_1_new": 805,
+            "vaccine_1_old": 1993884
+        },
+        "vaccine_2": {
+            "vaccine_2": 1934070,
+            "vaccine_2_new": 4612,
+            "vaccine_2_old": 1929458
+        },
+        "vaccine_3": {
+            "vaccine_3": 925128,
+            "vaccine_3_new": 13612,
+            "vaccine_3_old": 911516
+        }
+    },
+    "incheon": {
+        "countryNm": "인천",
+        "vaccine_1": {
+            "vaccine_1": 2529318,
+            "vaccine_1_new": 858,
+            "vaccine_1_old": 2528460
+        },
+        "vaccine_2": {
+            "vaccine_2": 2473547,
+            "vaccine_2_new": 3655,
+            "vaccine_2_old": 2469892
+        },
+        "vaccine_3": {
+            "vaccine_3": 1249112,
+            "vaccine_3_new": 18883,
+            "vaccine_3_old": 1230229
+        }
+    },
+    "gwangju": {
+        "countryNm": "광주",
+        "vaccine_1": {
+            "vaccine_1": 1246121,
+            "vaccine_1_new": 479,
+            "vaccine_1_old": 1245642
+        },
+        "vaccine_2": {
+            "vaccine_2": 1213744,
+            "vaccine_2_new": 2871,
+            "vaccine_2_old": 1210873
+        },
+        "vaccine_3": {
+            "vaccine_3": 637801,
+            "vaccine_3_new": 9822,
+            "vaccine_3_old": 627979
+        }
+    },
+    "daejeon": {
+        "countryNm": "대전",
+        "vaccine_1": {
+            "vaccine_1": 1229717,
+            "vaccine_1_new": 468,
+            "vaccine_1_old": 1229249
+        },
+        "vaccine_2": {
+            "vaccine_2": 1197407,
+            "vaccine_2_new": 2511,
+            "vaccine_2_old": 1194896
+        },
+        "vaccine_3": {
+            "vaccine_3": 592678,
+            "vaccine_3_new": 10238,
+            "vaccine_3_old": 582440
+        }
+    },
+    "ulsan": {
+        "countryNm": "울산",
+        "vaccine_1": {
+            "vaccine_1": 955638,
+            "vaccine_1_new": 478,
+            "vaccine_1_old": 955160
+        },
+        "vaccine_2": {
+            "vaccine_2": 927850,
+            "vaccine_2_new": 2323,
+            "vaccine_2_old": 925527
+        },
+        "vaccine_3": {
+            "vaccine_3": 448125,
+            "vaccine_3_new": 9724,
+            "vaccine_3_old": 438401
+        }
+    },
+    "sejong": {
+        "countryNm": "세종",
+        "vaccine_1": {
+            "vaccine_1": 289820,
+            "vaccine_1_new": 103,
+            "vaccine_1_old": 289717
+        },
+        "vaccine_2": {
+            "vaccine_2": 280462,
+            "vaccine_2_new": 642,
+            "vaccine_2_old": 279820
+        },
+        "vaccine_3": {
+            "vaccine_3": 130110,
+            "vaccine_3_new": 2311,
+            "vaccine_3_old": 127799
+        }
+    },
+    "gyeonggi": {
+        "countryNm": "경기",
+        "vaccine_1": {
+            "vaccine_1": 11635521,
+            "vaccine_1_new": 4048,
+            "vaccine_1_old": 11631473
+        },
+        "vaccine_2": {
+            "vaccine_2": 11361626,
+            "vaccine_2_new": 18452,
+            "vaccine_2_old": 11343174
+        },
+        "vaccine_3": {
+            "vaccine_3": 5594786,
+            "vaccine_3_new": 86734,
+            "vaccine_3_old": 5508052
+        }
+    },
+    "gangwon": {
+        "countryNm": "강원",
+        "vaccine_1": {
+            "vaccine_1": 1330362,
+            "vaccine_1_new": 544,
+            "vaccine_1_old": 1329818
+        },
+        "vaccine_2": {
+            "vaccine_2": 1301351,
+            "vaccine_2_new": 2341,
+            "vaccine_2_old": 1299010
+        },
+        "vaccine_3": {
+            "vaccine_3": 760673,
+            "vaccine_3_new": 10975,
+            "vaccine_3_old": 749698
+        }
+    },
+    "chungbuk": {
+        "countryNm": "충북",
+        "vaccine_1": {
+            "vaccine_1": 1406790,
+            "vaccine_1_new": 545,
+            "vaccine_1_old": 1406245
+        },
+        "vaccine_2": {
+            "vaccine_2": 1372898,
+            "vaccine_2_new": 2778,
+            "vaccine_2_old": 1370120
+        },
+        "vaccine_3": {
+            "vaccine_3": 741602,
+            "vaccine_3_new": 11512,
+            "vaccine_3_old": 730090
+        }
+    },
+    "chungnam": {
+        "countryNm": "충남",
+        "vaccine_1": {
+            "vaccine_1": 1867376,
+            "vaccine_1_new": 729,
+            "vaccine_1_old": 1866647
+        },
+        "vaccine_2": {
+            "vaccine_2": 1821328,
+            "vaccine_2_new": 3262,
+            "vaccine_2_old": 1818066
+        },
+        "vaccine_3": {
+            "vaccine_3": 993122,
+            "vaccine_3_new": 14770,
+            "vaccine_3_old": 978352
+        }
+    },
+    "jeonbuk": {
+        "countryNm": "전북",
+        "vaccine_1": {
+            "vaccine_1": 1573274,
+            "vaccine_1_new": 521,
+            "vaccine_1_old": 1572753
+        },
+        "vaccine_2": {
+            "vaccine_2": 1540820,
+            "vaccine_2_new": 2825,
+            "vaccine_2_old": 1537995
+        },
+        "vaccine_3": {
+            "vaccine_3": 914057,
+            "vaccine_3_new": 11905,
+            "vaccine_3_old": 902152
+        }
+    },
+    "jeonnam": {
+        "countryNm": "전남",
+        "vaccine_1": {
+            "vaccine_1": 1630235,
+            "vaccine_1_new": 534,
+            "vaccine_1_old": 1629701
+        },
+        "vaccine_2": {
+            "vaccine_2": 1596385,
+            "vaccine_2_new": 2834,
+            "vaccine_2_old": 1593551
+        },
+        "vaccine_3": {
+            "vaccine_3": 987046,
+            "vaccine_3_new": 12861,
+            "vaccine_3_old": 974185
+        }
+    },
+    "gyeongbuk": {
+        "countryNm": "경북",
+        "vaccine_1": {
+            "vaccine_1": 2257551,
+            "vaccine_1_new": 1133,
+            "vaccine_1_old": 2256418
+        },
+        "vaccine_2": {
+            "vaccine_2": 2191750,
+            "vaccine_2_new": 3999,
+            "vaccine_2_old": 2187751
+        },
+        "vaccine_3": {
+            "vaccine_3": 1189288,
+            "vaccine_3_new": 17547,
+            "vaccine_3_old": 1171741
+        }
+    },
+    "gyeongnam": {
+        "countryNm": "경남",
+        "vaccine_1": {
+            "vaccine_1": 2844520,
+            "vaccine_1_new": 1075,
+            "vaccine_1_old": 2843445
+        },
+        "vaccine_2": {
+            "vaccine_2": 2769699,
+            "vaccine_2_new": 6077,
+            "vaccine_2_old": 2763622
+        },
+        "vaccine_3": {
+            "vaccine_3": 1438779,
+            "vaccine_3_new": 20909,
+            "vaccine_3_old": 1417870
+        }
+    },
+    "jeju": {
+        "countryNm": "제주",
+        "vaccine_1": {
+            "vaccine_1": 579741,
+            "vaccine_1_new": 222,
+            "vaccine_1_old": 579519
+        },
+        "vaccine_2": {
+            "vaccine_2": 563328,
+            "vaccine_2_new": 1614,
+            "vaccine_2_old": 561714
+        },
+        "vaccine_3": {
+            "vaccine_3": 281475,
+            "vaccine_3_new": 4645,
+            "vaccine_3_old": 276830
+        }
+    }
+} 
