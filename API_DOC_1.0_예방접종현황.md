@@ -1,13 +1,11 @@
-# [vBETA] VACCINE-BETA-API Response
+# [v1.0] 예방접종현황 API Response
  
 
-version BETA (API Update: 22-01-08 & Document Update: 22-01-08)
- 
-** 해당 버전은 공개 베타 버전 입니다.
+version 1.0 (API Update: 22-01-14 & Document Update: 22-01-14)
 
-** 베타 버전으로 아래 항목들은 변경될 수 있습니다.
+** 국내 시도별 코로나19 예방접종현황만 제공됩니다. (격리(quarantine)에 대한 예방접종현황은 제공되지 않습니다.)
 
-** 국내 시도별 코로나19 예방접종현황만 제공됩니다.(격리(quarantine)에 대한 예방접종현황은 제공되지 않습니다.)
+** [예방접종현황 API 추가 안내사항](https://github.com/dhlife09/Corona-19-API/discussions/71)
 
 ---
 
@@ -19,7 +17,7 @@ Host: api.corona-19.kr
  
 |Key|Type|항목명(한글)|Description|Sample Data|
 |---|--|---|--|--|
-|apiName|String|API명|추후 업데이트로 사라질 수 있습니다.|Corona-19-API-시도별-예방접종현황-beta|
+|apiName|String|API명||Corona-19-API-예방접종현황-v1|
 |dataTime|String|데이터 업데이트 시간|-|12.24., 24시 기준|
 |dataSource|String|데이터 수집 방법|-|Goodbye-Corona-Bot|
 |resultCode|String|API 처리 결과 코드|-|200|
