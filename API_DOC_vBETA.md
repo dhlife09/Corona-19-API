@@ -20,7 +20,6 @@ Host: api.corona-19.kr
 |resultCode|Integer|API 처리 결과 코드|-|200|
 |resultMessage|String|API 처리 결과|-|정상 처리되었습니다.|
 |isolDec|String|전일대비(치료중)|-|확인 중(확인 될 경우 float로 제공예정)|
-|confPcnt|String|국내 확진율|-|확인 중(확인 될 경우 float로 제공예정)|
 |recPcnt|Float|국내 완치율|-|90.13|
 |deathPcnt|Float|국내 사망률|-|0.79|
 |country1N|String|확진자수가 Top1인 시도명|-|서울|
