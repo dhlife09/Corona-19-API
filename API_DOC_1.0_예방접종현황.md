@@ -32,3 +32,6 @@ Host: api.corona-19.kr
 |vaccine_3|Integer|3차접종 완료(전체=신규+기존)|-|15114773|
 |vaccine_3_new|Integer|3차접종 완료(신규)|-|777917|
 |vaccine_3_old|Integer|3차접종 완료(기존)|-|14336856|
+|vaccine_4|Integer|4차접종 완료(전체=신규+기존)|-|4614952|
+|vaccine_4_new|Integer|4차접종 완료(신규)|-|26596|
+|vaccine_4_old|Integer|4차접종 완료(기존)|-|4588356|
