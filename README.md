@@ -22,9 +22,11 @@
 - [굿바이코로나 Corona-19-API 개인정보처리방침](https://github.com/dhlife09/Corona-19-API/blob/master/docs/privacy.md)
 - [데이터 업데이트 시간(KST)](https://github.com/dhlife09/Corona-19-API/blob/master/docs/updateTime.md)
 - [데이터 출처](https://github.com/dhlife09/Corona-19-API/blob/master/docs/source.md)
+- [Thanks ❤️](https://github.com/dhlife09/Corona-19-API/blob/master/docs/thanks.md)
+
 ## 🔐 서비스키 발급
 ### 키 발급
-- https://api.corona-19.kr/ 에 방문해서 이메일 주소, 사용 목적을 입력하신 후 "API 키 발급하기" 버튼을 눌러주세요. 
+- https://api.corona-19.kr 에 방문해서 이메일 주소, 사용 목적을 입력하신 후 "API 키 발급하기" 버튼을 눌러주세요. 
 - 버튼을 누르면 즉시 메일로 API 키가 발송됩니다.
 - 메일 관련 질문이 있으신 경우, [여기](https://github.com/dhlife09/Corona-19-API/blob/master/docs/QnA_email.md)에서 Q&A를 확인해 주세요.
 
@@ -36,32 +38,15 @@
 
 |API|version|description|example|
 |--|---|---|--|
-|**국내 전체**|[vBETA](https://github.com/dhlife09/Corona-19-API/blob/master/API_DOC_vBETA.md)|기존에 제공되던 국내 카운터 API와 시도별 발생동향 두 데이터가 합쳐지고 Integer, Float 등의 형식으로 제공됨|Request URL - https://api.corona-19.kr/korea/beta/?serviceKey={API_KEY}<br><br>Response Content - [SAMPLE_vBETA.json](https://github.com/dhlife09/Corona-19-API/blob/master/sample/response/SAMPLE_vBETA.json)|
-|**국내 예방접종현황**|[v1.0](https://github.com/dhlife09/Corona-19-API/blob/master/API_DOC_1.0_%EC%98%88%EB%B0%A9%EC%A0%91%EC%A2%85%ED%98%84%ED%99%A9.md)|국내 시도별 예방접종현황(1, 2, 3차 - 전체, 신규, 기존) 데이터 제공|Request URL - https://api.corona-19.kr/korea/vaccine/?serviceKey={API_KEY}<br><br>Response Content - [SAMPLE_v1.0_예방접종현황.json](https://github.com/dhlife09/Corona-19-API/blob/master/sample/response/SAMPLE_v1.0_%EC%98%88%EB%B0%A9%EC%A0%91%EC%A2%85%ED%98%84%ED%99%A9.json)|
-|국내 카운터|[v1.0](https://github.com/dhlife09/Corona-19-API/blob/master/API_DOC_v1.0_%EA%B5%AD%EB%82%B4_%EC%B9%B4%EC%9A%B4%ED%84%B0.md)|국내 확진자수, 국내 완치자수, 국내 사망자수, 국내 격리자수, 확진환자 현황 상위 1-5 시도명 및 퍼센트율 등의 정보 제공|Request URL - https://api.corona-19.kr/korea/?serviceKey={API_KEY}<br><br>Response Content - [SAMPLE_v1.0_국내_카운터.json](https://github.com/dhlife09/Corona-19-API/blob/master/sample/response/SAMPLE_v1.0_%EA%B5%AD%EB%82%B4_%EC%B9%B4%EC%9A%B4%ED%84%B0.json)|
-|시도별 발생동향|[v2.0](https://github.com/dhlife09/Corona-19-API/blob/master/API_DOC_v2.0_%EC%8B%9C%EB%8F%84%EB%B3%84_%EB%B0%9C%EC%83%9D%EB%8F%99%ED%96%A5.md)|각 시도별 전일대비 확진환자 증감, 확진환자수, 격리해제수, 사망자수, 발생률 등의 정보 제공|Request URL - https://api.corona-19.kr/korea/country/new/?serviceKey={API_KEY}<br><br>Response Content - [SAMPLE_v2.0_시도별_발생동향.json](https://github.com/dhlife09/Corona-19-API/blob/master/sample/response/SAMPLE_v2.0_%EC%8B%9C%EB%8F%84%EB%B3%84_%EB%B0%9C%EC%83%9D%EB%8F%99%ED%96%A5.json)|
+|**국내 전체(recommended)**|[v2.1](https://github.com/dhlife09/Corona-19-API/blob/master/API_DOC_v2.1_%EA%B5%AD%EB%82%B4%EC%A0%84%EC%B2%B4.md)|국내 및 시도별 코로나19 감염 정보 제공|Request URL - https://api.corona-19.kr/korea/?serviceKey={API_KEY}<br><br>Response Content - [SAMPLE_v2.1_국내전체.json](https://github.com/dhlife09/Corona-19-API/blob/master/sample/response/SAMPLE_v2.1_%EA%B5%AD%EB%82%B4%EC%A0%84%EC%B2%B4.json)|
+|**국내 전체**|[v2.0_beta](https://github.com/dhlife09/Corona-19-API/blob/master/API_DOC_v2.1_%EA%B5%AD%EB%82%B4%EC%A0%84%EC%B2%B4.md)|베타 버전으로 제공되는 항목이 변경될 수 있습니다.|Request URL - https://api.corona-19.kr/korea/beta/?serviceKey={API_KEY}<br><br>Response Content - [SAMPLE_vBETA.json](https://github.com/dhlife09/Corona-19-API/blob/master/sample/response/SAMPLE_vBETA.json)|
+|**국내 예방접종현황**|[v1.0](https://github.com/dhlife09/Corona-19-API/blob/master/API_DOC_1.0_%EC%98%88%EB%B0%A9%EC%A0%91%EC%A2%85%ED%98%84%ED%99%A9.md)|국내 시도별 예방접종현황(1, 2, 3차 - 전체, 신규, 기존) 데이터 제공<br><br>※ 2023년 1월 12일 기준 예방접종현황 데이터 제공이 일시 중단되었습니다. 빠른 시일 내 재개 예정입니다.|Request URL - https://api.corona-19.kr/korea/vaccine/?serviceKey={API_KEY}<br><br>Response Content - [SAMPLE_v1.0_예방접종현황.json](https://github.com/dhlife09/Corona-19-API/blob/master/sample/response/SAMPLE_v1.0_%EC%98%88%EB%B0%A9%EC%A0%91%EC%A2%85%ED%98%84%ED%99%A9.json)|
+|시도별 발생동향(deprecated)|[v2.0](https://github.com/dhlife09/Corona-19-API/blob/master/API_DOC_v2.0_%EC%8B%9C%EB%8F%84%EB%B3%84_%EB%B0%9C%EC%83%9D%EB%8F%99%ED%96%A5.md)|각 시도별 전일대비 확진환자 증감, 확진환자수, 격리해제수, 사망자수, 발생률 등의 정보 제공|Request URL - https://api.corona-19.kr/korea/country/new/?serviceKey={API_KEY}<br><br>Response Content - [SAMPLE_v2.0_시도별_발생동향.json](https://github.com/dhlife09/Corona-19-API/blob/master/sample/response/SAMPLE_v2.0_%EC%8B%9C%EB%8F%84%EB%B3%84_%EB%B0%9C%EC%83%9D%EB%8F%99%ED%96%A5.json)|
 
 
-
-## ❤️ 서비스 운영에 도움을 주신 분들
-- [Oracle Cloud](https://www.oracle.com/cloud/) - 메인 서버, API 서버가 운영되고 있습니다.
-- [DevEnne](https://github.com/DevEnne)님 - 예제 소스코드 제작, 데이터 검토 등 도움을 주셨습니다.
-- 양＊현님, 김＊이님 - 서비스에 후원해주셔서 감사합니다.
-
-
-
-![dhlife09-citibank-donate](https://user-images.githubusercontent.com/22024308/147379028-48b44526-0b71-41c5-9ee1-3d735fe92d01.jpg)
-
-
-굿바이코로나(Corona-19-API) 서비스는 수익 창출이나 광고를 받지 않는 무료서비스 입니다.
-
-도메인 비용, 유지보수 비용 등 서비스 운영에 도움을 주실 수 있습니다.
-
-서비스를 이용해주셔서 감사합니다.
-
-
+---
 ```
-Copyright 2020-2022 dhlife09(Goodbye-Corona) All Rights Reserved.
+Copyright 2020-2023 dhlife09(Goodbye-Corona) All Rights Reserved.
 
 본 서비스에서 제공하는 정보는 공식 자료로 사용되기에 적합하지 않습니다.
 서비스 이용 전 반드시 이용약관과 개인정보처리방침을 확인하시기 바랍니다.
