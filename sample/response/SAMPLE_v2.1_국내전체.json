@@ -1,0 +1,181 @@
+{
+    "API": {
+        "apiName": "Corona-19-API-국내-발생현황",
+        "updateTime": "코로나19 국내 발생현황(2023년 01.11. 00시 기준)",
+        "dataSource": "Goodbye-Corona-Bot-V2",
+        "resultCode": "200",
+        "resultMessage": "정상 처리되었습니다.",
+        "deathPcnt": 0.11
+    },
+    "korea": {
+        "countryNm": "합계",
+        "totalCnt": 29654090,
+        "deathCnt": 32745,
+        "qurRate": 57426,
+        "incDec": 54343,
+        "incDecK": 54223,
+        "incDecF": 120
+    },
+    "seoul": {
+        "countryNm": "서울",
+        "totalCnt": 5771592,
+        "deathCnt": 6159,
+        "qurRate": 60693,
+        "incDec": 9534,
+        "incDecK": 9526,
+        "incDecF": 8
+    },
+    "busan": {
+        "countryNm": "부산",
+        "totalCnt": 1758507,
+        "deathCnt": 2724,
+        "qurRate": 52487,
+        "incDec": 3614,
+        "incDecK": 3614,
+        "incDecF": 0
+    },
+    "daegu": {
+        "countryNm": "대구",
+        "totalCnt": 1292357,
+        "deathCnt": 1899,
+        "qurRate": 54178,
+        "incDec": 2377,
+        "incDecK": 2370,
+        "incDecF": 7
+    },
+    "incheon": {
+        "countryNm": "인천",
+        "totalCnt": 1724097,
+        "deathCnt": 1794,
+        "qurRate": 58476,
+        "incDec": 3424,
+        "incDecK": 3375,
+        "incDecF": 49
+    },
+    "gwangju": {
+        "countryNm": "광주",
+        "totalCnt": 864194,
+        "deathCnt": 792,
+        "qurRate": 59946,
+        "incDec": 1587,
+        "incDecK": 1586,
+        "incDecF": 1
+    },
+    "daejeon": {
+        "countryNm": "대전",
+        "totalCnt": 865621,
+        "deathCnt": 898,
+        "qurRate": 59605,
+        "incDec": 1494,
+        "incDecK": 1494,
+        "incDecF": 0
+    },
+    "ulsan": {
+        "countryNm": "울산",
+        "totalCnt": 632995,
+        "deathCnt": 508,
+        "qurRate": 56437,
+        "incDec": 1414,
+        "incDecK": 1411,
+        "incDecF": 3
+    },
+    "sejong": {
+        "countryNm": "세종",
+        "totalCnt": 235033,
+        "deathCnt": 52,
+        "qurRate": 63199,
+        "incDec": 383,
+        "incDecK": 383,
+        "incDecF": 0
+    },
+    "gyeonggi": {
+        "countryNm": "경기",
+        "totalCnt": 8029625,
+        "deathCnt": 8083,
+        "qurRate": 59192,
+        "incDec": 14391,
+        "incDecK": 14374,
+        "incDecF": 17
+    },
+    "gangwon": {
+        "countryNm": "강원",
+        "totalCnt": 875102,
+        "deathCnt": 1251,
+        "qurRate": 56881,
+        "incDec": 1609,
+        "incDecK": 1609,
+        "incDecF": 0
+    },
+    "chungbuk": {
+        "countryNm": "충북",
+        "totalCnt": 929519,
+        "deathCnt": 985,
+        "qurRate": 58189,
+        "incDec": 1612,
+        "incDecK": 1609,
+        "incDecF": 3
+    },
+    "chungnam": {
+        "countryNm": "충남",
+        "totalCnt": 1199493,
+        "deathCnt": 1495,
+        "qurRate": 56600,
+        "incDec": 2243,
+        "incDecK": 2238,
+        "incDecF": 5
+    },
+    "jeonbuk": {
+        "countryNm": "전북",
+        "totalCnt": 991999,
+        "deathCnt": 1154,
+        "qurRate": 55516,
+        "incDec": 1787,
+        "incDecK": 1786,
+        "incDecF": 1
+    },
+    "jeonnam": {
+        "countryNm": "전남",
+        "totalCnt": 967950,
+        "deathCnt": 899,
+        "qurRate": 52813,
+        "incDec": 1827,
+        "incDecK": 1827,
+        "incDecF": 0
+    },
+    "gyeongbuk": {
+        "countryNm": "경북",
+        "totalCnt": 1353242,
+        "deathCnt": 1987,
+        "qurRate": 51520,
+        "incDec": 2563,
+        "incDecK": 2560,
+        "incDecF": 3
+    },
+    "gyeongnam": {
+        "countryNm": "경남",
+        "totalCnt": 1772813,
+        "deathCnt": 1793,
+        "qurRate": 53492,
+        "incDec": 3798,
+        "incDecK": 3797,
+        "incDecF": 1
+    },
+    "jeju": {
+        "countryNm": "제주",
+        "totalCnt": 372893,
+        "deathCnt": 256,
+        "qurRate": 55100,
+        "incDec": 668,
+        "incDecK": 664,
+        "incDecF": 4
+    },
+    "quarantine": {
+        "countryNm": "검역",
+        "totalCnt": 17058,
+        "deathCnt": 16,
+        "qurRate": 0,
+        "incDec": 18,
+        "incDecK": 0,
+        "incDecF": 18
+    }
+} 
