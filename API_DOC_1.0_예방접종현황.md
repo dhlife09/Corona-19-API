@@ -1,7 +1,7 @@
 # [v1.1] 예방접종현황 API Response
  
 
-version 1.1 (API Update: 23-01-14 & Document Update: 23-01-14)
+version 1.1 (API Update: 23-01-15 & Document Update: 23-01-15)
 
 ** 국내 시도별 코로나19 예방접종현황만 제공됩니다. (격리(quarantine)에 대한 예방접종현황은 제공되지 않습니다.)
 
@@ -9,9 +9,7 @@ version 1.1 (API Update: 23-01-14 & Document Update: 23-01-14)
 
 ** ver1.1 업데이트: 접종률 데이터 추가 및 동절기추가접종 데이터 추가
 
-** 문서 작성이 완료되지 않았습니다. 추후 업데이트 될 예정입니다.
-
-** 3차, 4차 접종현황 항목은 제거될 예정입니다.
+** 3차, 4차 접종현황 항목은 제거되었습니다.
 
 ---
 
@@ -32,12 +30,12 @@ Host: api.corona-19.kr
 |vaccine_1|Integer|1차접종 완료(전체=신규+기존)|-|43968611|
 |vaccine_1_new|Integer|1차접종 완료(신규)|-|78717|
 |vaccine_1_old|Integer|1차접종 완료(기존)|-|43889894|
-|vaccine_1_pcnt|Float|1차접종 접종률|-|업데이트 예정|
+|vaccine_1_pcnt|Float|1차접종 접종률|-|89.5|
 |vaccine_2|Integer|2차접종 완료(전체=신규+기존)|-|42307415|
 |vaccine_2_new|Integer|2차접종 완료(신규)|-|43219|
 |vaccine_2_old|Integer|2차접종 완료(기존)|-|42264196|
-|vaccine_2_pcnt|Float|2차접종 접종률|-|업데이트 예정|
+|vaccine_2_pcnt|Float|2차접종 접종률|-|88.7|
 |vaccine_w|Integer|동절기추가접종 완료(전체=신규+기존)|-|15114773|
 |vaccine_w_new|Integer|동절기추가접종 완료(신규)|-|777917|
 |vaccine_w_old|Integer|동절기추가접종 완료(기존)|-|14336856|
-|vaccine_w_pcnt|Float|동절기추가접종 접종률|-|업데이트 예정|
+|vaccine_w_pcnt|Float|동절기추가접종 접종률|-|12.2|
